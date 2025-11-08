@@ -1,40 +1,51 @@
-# Project Overview
+# Portfolio Showcase
 
-This directory, `Public_Portfolio`, is a collection of Python utility scripts and a comprehensive study guide for the CompTIA Security+ (SY0-701) exam.
+This repository is a curated collection of my work, demonstrating practical skills in Python development, cybersecurity analysis, and IT administration. It includes both functional utility scripts and hands-on lab exercises from recognized certification programs.
 
-## Projects
+---
 
-### FileJanitor
+## Python Utility Scripts
+
+This section features a series of standalone GUI applications built with Python and Tkinter. Each tool is designed to solve a common file management problem and can be bundled into a standalone Windows executable using PyInstaller.
+
+### [FileJanitor](./file-janitor/)
 *   **Purpose:** A Python script to clean and organize folders by finding and removing duplicate files and empty directories.
-*   **Technologies:** Python, `tkinter` (for GUI folder selection), `tqdm` (for progress bars).
-*   **How to Run:** `python3 FileJanitor.py`
+*   **Skills Demonstrated:** Python, `tkinter`, `tqdm`, SHA-256 Hashing, File I/O.
 
-### MediaTidy
+### [MediaTidy](./media-tidy/)
 *   **Purpose:** A Python script to organize photo and video libraries by renaming files based on EXIF data and moving them into a structured `Images` and `Videos` directory.
-*   **Technologies:** Python, `Pillow` (for EXIF data), `tkinter`, `tqdm`.
-*   **How to Run:** `python3 MediaTidy.py`
-*   **Deployment:** Can be bundled into a standalone Windows executable using PyInstaller.
+*   **Skills Demonstrated:** Python, `Pillow` (for EXIF data), `tkinter`, `tqdm`, Metadata Handling.
 
-### pdf-merger
-*   **Purpose:** A Python script to merge multiple PDF files into a single PDF.
-*   **Technologies:** Python.
-*   **How to Run:** `python3 merge_pdfs.py`
-*   **Deployment:** Can be bundled into a standalone Windows executable using PyInstaller.
+### [pdf-merger](./pdf-merger/)
+*   **Purpose:** A Python script with a GUI to merge multiple PDF files into a single document.
+*   **Skills Demonstrated:** Python, `pypdf`, `tkinter`, GUI Development.
 
-### ppt-to-pdf-converter
-*   **Purpose:** A Python script to convert PowerPoint presentations (`.ppt`, `.pptx`) to PDF files.
-*   **Technologies:** Python.
-*   **How to Run:** `python3 convert_to_pdf.py`
-*   **Deployment:** Can be bundled into a standalone Windows executable using PyInstaller.
+### [ppt-to-pdf-converter](./ppt-to-pdf-converter/)
+*   **Purpose:** A Windows-only Python script to convert PowerPoint presentations (`.ppt`, `.pptx`) to PDF files and merge them.
+*   **Skills Demonstrated:** Python, `win32com`, `pypdf`, `tkinter`, COM Automation.
 
-### sec-plus-guide
-*   **Purpose:** A study guide for the CompTIA Security+ (SY0-701) exam.
-*   **Structure:** The guide is organized by the official exam domains. Each topic is broken down using the "5 W's and H" (Who, What, Where, When, Why, How) format.
-*   **Key Files:**
-    *   `Study_Guide_Main.md`: The main entry point for the study guide.
-    *   `DOMAIN_1_RESEARCH.md`, `DOMAIN_2_RESEARCH.md`, etc.: Detailed notes for each exam domain.
-    *   `01.1_Security_Controls_Research.md`, etc.: Deeper research on specific topics.
+---
 
-## Directory Usage
+## Cybersecurity & IT Labs
 
-This directory serves as a portfolio of Python projects and a dedicated study resource. The Python scripts are standalone utilities designed for file and media management. The `sec_plus_guide` is a structured knowledge base for cybersecurity certification preparation.
+This section contains reports and analyses from practical lab exercises, showcasing my ability to apply security principles and use industry-standard frameworks.
+
+### [CompTIA Security+ (SY0-701) Study Guide](./sec-plus-guide/)
+*   **Purpose:** A comprehensive study guide for the CompTIA Security+ exam, organized by official domains.
+*   **Skills Demonstrated:** Security Concepts, Threat Management, Security Architecture, Security Operations, Governance & Compliance.
+
+### [NIST DDoS Incident Report](./nist-ddos-incident-report/)
+*   **Purpose:** A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover).
+*   **Skills Demonstrated:** Incident Analysis, NIST Cybersecurity Framework, Network Security, Incident Response.
+
+### [Google Cybersecurity: Data Leak Incident Response](./google-data-leak-incident-activity/)
+*   **Purpose:** An analysis of a data leak incident, identifying failures in security controls and recommending improvements based on the NIST Cybersecurity Framework and NIST SP 800-53.
+*   **Skills Demonstrated:** Incident Analysis, NIST SP 800-53, Access Control (Principle of Least Privilege).
+
+### [Google Cybersecurity: SQL for Investigations](./google-sql-filtering-lab/)
+*   **Purpose:** A hands-on lab demonstrating the use of SQL to query a database for security investigations, including filtering by time, date, and location to identify suspicious activity.
+*   **Skills Demonstrated:** SQL, Threat Hunting, Data Auditing.
+
+### [Google Cybersecurity: Linux Least Privilege Lab](./linux-least-privilege-lab/)
+*   **Purpose:** A lab demonstrating a file permission audit and remediation in a Linux environment to enforce the Principle of Least Privilege.
+*   **Skills Demonstrated:** Linux, `chmod`, File System Auditing, Access Control.
