@@ -1,6 +1,6 @@
 [submodule "file-janitor"]
 	path = file-janitor
-	url = https://github.com/Rey-EL/FileJanitor.git
+	url = https://github.com/Rey-EL/file-janitor.git
 [submodule "google-sql-filtering-lab"]
 	path = google-sql-filtering-lab
 	url = https://github.com/Rey-EL/google-sql-filtering-lab.git
@@ -9,7 +9,7 @@
 	url = https://github.com/Rey-EL/linux-least-privilege-lab.git
 [submodule "media-tidy"]
 	path = media-tidy
-	url = https://github.com/Rey-EL/MediaTidy.git
+	url = https://github.com/Rey-EL/media-tidy.git
 [submodule "nist-ddos-incident-report"]
 	path = nist-ddos-incident-report
 	url = https://github.com/Rey-EL/nist-ddos-incident-report.git
