@@ -1,0 +1,24 @@
+[submodule "file-janitor"]
+	path = file-janitor
+	url = ./file-janitor
+[submodule "google-sql-filtering-lab"]
+	path = google-sql-filtering-lab
+	url = ./google-sql-filtering-lab
+[submodule "linux-least-privilege-lab"]
+	path = linux-least-privilege-lab
+	url = ./linux-least-privilege-lab
+[submodule "media-tidy"]
+	path = media-tidy
+	url = ./media-tidy
+[submodule "nist-ddos-incident-report"]
+	path = nist-ddos-incident-report
+	url = ./nist-ddos-incident-report
+[submodule "pdf-merger"]
+	path = pdf-merger
+	url = ./pdf-merger
+[submodule "ppt-to-pdf-converter"]
+	path = ppt-to-pdf-converter
+	url = ./ppt-to-pdf-converter
+[submodule "sec-plus-guide"]
+	path = sec-plus-guide
+	url = ./sec-plus-guide
