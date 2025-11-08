@@ -1,4 +1,4 @@
-# Google Cybersecurity Certificate: Data Leak Incident Response
+# google-data-leak-incident-activity
 
 This project is an exercise from the Google Cybersecurity Certificate program. It involves analyzing a data leak incident, identifying failures in security controls, and recommending improvements based on the NIST Cybersecurity Framework (CSF) and NIST SP 800-53.
 
