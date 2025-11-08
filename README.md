@@ -13,21 +13,21 @@ This directory, `Public_Portfolio`, is a collection of Python utility scripts an
 *   **Purpose:** A Python script to organize photo and video libraries by renaming files based on EXIF data and moving them into a structured `Images` and `Videos` directory.
 *   **Technologies:** Python, `Pillow` (for EXIF data), `tkinter`, `tqdm`.
 *   **How to Run:** `python3 MediaTidy.py`
-*   **Deployment:** Includes a `.spec` file for creating a standalone Windows executable using PyInstaller.
+*   **Deployment:** Can be bundled into a standalone Windows executable using PyInstaller.
 
 ### pdf-merger
 *   **Purpose:** A Python script to merge multiple PDF files into a single PDF.
 *   **Technologies:** Python.
 *   **How to Run:** `python3 merge_pdfs.py`
-*   **Deployment:** Includes a `.spec` file for creating a standalone Windows executable using PyInstaller.
+*   **Deployment:** Can be bundled into a standalone Windows executable using PyInstaller.
 
 ### ppt-to-pdf-converter
 *   **Purpose:** A Python script to convert PowerPoint presentations (`.ppt`, `.pptx`) to PDF files.
 *   **Technologies:** Python.
 *   **How to Run:** `python3 convert_to_pdf.py`
-*   **Deployment:** Includes a `.spec` file for creating a standalone Windows executable using PyInstaller.
+*   **Deployment:** Can be bundled into a standalone Windows executable using PyInstaller.
 
-### sec_plus_guide
+### sec-plus-guide
 *   **Purpose:** A study guide for the CompTIA Security+ (SY0-701) exam.
 *   **Structure:** The guide is organized by the official exam domains. Each topic is broken down using the "5 W's and H" (Who, What, Where, When, Why, How) format.
 *   **Key Files:**
