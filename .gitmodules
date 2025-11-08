@@ -19,3 +19,6 @@
 [submodule "sec-plus-guide"]
 	path = sec-plus-guide
 	url = https://github.com/Rey-EL/sec-plus-guide.git
+[submodule "file-janitor"]
+	path = file-janitor
+	url = https://github.com/Rey-EL/file-janitor.git
