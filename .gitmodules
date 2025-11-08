@@ -1,6 +1,3 @@
-[submodule "file-janitor"]
-	path = file-janitor
-	url = https://github.com/Rey-EL/file-janitor.git
 [submodule "google-sql-filtering-lab"]
 	path = google-sql-filtering-lab
 	url = https://github.com/Rey-EL/google-sql-filtering-lab.git
