@@ -1,63 +1,44 @@
-# Portfolio Showcase
+# Elvis Reyes - Cybersecurity & Python Portfolio
 
-This repository is a curated collection of my work, demonstrating practical skills in Python development, cybersecurity analysis, and IT administration. It includes both functional utility scripts and hands-on lab exercises from recognized certification programs.
+Welcome to my portfolio. This repository is a curated collection of my work, demonstrating practical skills in cybersecurity analysis, IT administration, and Python development. Each project is designed to solve a real-world problem or showcase my ability to apply industry-standard frameworks.
+
+---
+
+## Table of Contents
+
+*   [Python Utility Scripts](#python-utility-scripts)
+*   [Cybersecurity & IT Labs](#cybersecurity--it-labs)
+*   [License](#license)
 
 ---
 
 ## Python Utility Scripts
 
-This section features a series of standalone GUI applications built with Python and Tkinter. Each tool is designed to solve a common file management problem and can be bundled into a standalone Windows executable using PyInstaller.
+This section features a series of standalone GUI applications built with Python.
 
-### [file-janitor](https://github.com/Rey-EL/file-janitor)
-*   **Purpose:** A Python script to clean and organize folders by finding and removing duplicate files and empty directories.
-*   **Skills Demonstrated:** Python, `tkinter`, `tqdm`, SHA-256 Hashing, File I/O.
-
-### [media-tidy](https://github.com/Rey-EL/media-tidy)
-*   **Purpose:** A Python script to organize photo and video libraries by renaming files based on EXIF data and moving them into a structured `Images` and `Videos` directory.
-*   **Skills Demonstrated:** Python, `Pillow` (for EXIF data), `tkinter`, `tqdm`, Metadata Handling.
-
-### [pdf-merger](https://github.com/Rey-EL/pdf-merger)
-*   **Purpose:** A Python script with a GUI to merge multiple PDF files into a single document.
-*   **Skills Demonstrated:** Python, `pypdf`, `tkinter`, GUI Development.
-
-### [ppt-to-pdf-converter](https://github.com/Rey-EL/ppt-to-pdf-converter)
-*   **Purpose:** A Windows-only Python script to convert PowerPoint presentations (`.ppt`, `.pptx`) to PDF files and merge them.
-*   **Skills Demonstrated:** Python, `win32com`, `pypdf`, `tkinter`, COM Automation.
+| Project                                       | Description                                                                                             | Skills Demonstrated                                       |
+| :-------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------- |
+| **[file-janitor](./file-janitor/)**           | A tool to clean and organize folders by finding and removing duplicate files and empty directories.       | Python, `tkinter`, SHA-256 Hashing, File I/O              |
+| **[media-tidy](./media-tidy/)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
+| **[pdf-merger](./pdf-merger/)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
+| **[ppt-to-pdf-converter](./ppt-to-pdf-converter/)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
 
 ---
 
 ## Cybersecurity & IT Labs
 
-This section contains reports and analyses from practical lab exercises, showcasing my ability to apply security principles and use industry-standard frameworks.
+This section contains reports and analyses from practical lab exercises.
 
-### [sec-plus-guide](https://github.com/Rey-EL/sec-plus-guide)
-*   **Purpose:** A comprehensive study guide for the CompTIA Security+ exam, organized by official domains.
-*   **Skills Demonstrated:** Security Concepts, Threat Management, Security Architecture, Security Operations, Governance & Compliance.
-
-### [nist-ddos-incident-report](https://github.com/Rey-EL/nist-ddos-incident-report)
-*   **Purpose:** A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover).
-*   **Skills Demonstrated:** Incident Analysis, NIST Cybersecurity Framework, Network Security, Incident Response.
-
-### [google-data-leak-incident-activity](https://github.com/Rey-EL/google-data-leak-incident-activity)
-*   **Purpose:** An analysis of a data leak incident, identifying failures in security controls and recommending improvements based on the NIST Cybersecurity Framework and NIST SP 800-53.
-*   **Skills Demonstrated:** Incident Analysis, NIST SP 800-53, Access Control (Principle of Least Privilege).
-
-### [google-sql-filtering-lab](https://github.com/Rey-EL/google-sql-filtering-lab)
-*   **Purpose:** A hands-on lab demonstrating the use of SQL to query a database for security investigations, including filtering by time, date, and location to identify suspicious activity.
-*   **Skills Demonstrated:** SQL, Threat Hunting, Data Auditing.
-
-### [linux-least-privilege-lab](https://github.com/Rey-EL/linux-least-privilege-lab)
-*   **Purpose:** A lab demonstrating a file permission audit and remediation in a Linux environment to enforce the Principle of Least Privilege.
-*   **Skills Demonstrated:** Linux, `chmod`, File System Auditing, Access Control.
-
----
-
-## Security
-
-We are committed to ensuring the security of our projects. If you discover a security vulnerability, please report it responsibly by following the guidelines in our [Security Policy](./.github/SECURITY.md).
+| Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
+| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| **[CompTIA Security+ Study Guide](./sec-plus-guide/)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
+| **[NIST DDoS Incident Report](./nist-ddos-incident-report/)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework.    | Incident Analysis, NIST CSF, Network Security, Incident Response                 |
+| **[Google Data Leak Analysis](./google-data-leak-incident-activity/)** | An analysis of a data leak, identifying control failures and recommending improvements based on NIST SP 800-53. | Incident Analysis, NIST SP 800-53, Access Control (Least Privilege)              |
+| **[Google SQL Filtering Lab](./google-sql-filtering-lab/)**         | A lab demonstrating SQL for security investigations, including filtering by time, date, and location.           | SQL, Threat Hunting, Data Auditing                                               |
+| **[Linux Least Privilege Lab](./linux-least-privilege-lab/)**       | A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege. | Linux, `chmod`, File System Auditing, Access Control                             |
 
 ---
 
 ## License
 
-Unless otherwise specified within individual project directories, all projects in this repository are licensed under the MIT License. See the respective project directories for their `LICENSE.md` files.
+All projects in this repository are licensed under the [MIT License](./LICENSE), unless otherwise specified within the project's directory.
