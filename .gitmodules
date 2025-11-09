@@ -22,3 +22,6 @@
 [submodule "file-janitor"]
 	path = file-janitor
 	url = https://github.com/Rey-EL/file-janitor.git
+[submodule "google-cybersecurity-activities"]
+	path = google-cybersecurity-activities
+	url = https://github.com/Rey-EL/google-cybersecurity-activities.git
