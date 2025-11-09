@@ -6,7 +6,7 @@ We take the security of our projects seriously. If you discover a security vulne
 
 ### How to Report
 
-Please report security vulnerabilities by emailing us at [elvis.reyes@live.com](mailto:elvis.reyes@live.com).
+Please report security vulnerabilities by emailing us at [elvis360@gmail.com](mailto:elvis360@gmail.com).
 
 When reporting, please include as much detail as possible:
 *   A clear and concise description of the vulnerability.
