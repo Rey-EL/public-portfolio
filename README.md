@@ -32,10 +32,10 @@ This section features a series of standalone GUI applications built with Python,
 
 | Project                                       | Description                                                                                             | Skills Demonstrated                                       |
 | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------- |
-| **[file-janitor](https://github.com/Rey-EL/file-janitor)**           | A tool to clean and organize folders by finding and removing duplicate files and empty directories.       | Python, `tkinter`, SHA-256 Hashing, File I/O              |
-| **[media-tidy](https://github.com/Rey-EL/media-tidy)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
-| **[pdf-merger](https://github.com/Rey-EL/pdf-merger)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
-| **[ppt-to-pdf-converter](https://github.com/Rey-EL/ppt-to-pdf-converter)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
+| **[file-janitor](./python-utilities/file-janitor/README.md)**           | A tool to clean and organize folders by finding and removing duplicate files and empty directories.       | Python, `tkinter`, SHA-256 Hashing, File I/O              |
+| **[media-tidy](./python-utilities/media-tidy/README.md)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
+| **[pdf-merger](./python-utilities/pdf-merger/README.md)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
+| **[ppt-to-pdf-converter](./python-utilities/ppt-to-pdf-converter/README.md)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
 
 ---
 
@@ -45,7 +45,7 @@ This section highlights hands-on projects and analyses completed as part of the 
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Google Cybersecurity Activities](./google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment, an analysis of a data leak, a SQL filtering lab for security investigations, and a Linux least privilege lab. | Vulnerability Assessment, NIST SP 800-30, Risk Analysis, Incident Analysis, NIST SP 800-53, Access Control (Least Privilege), SQL, Threat Hunting, Data Auditing, Linux, `chmod`, File System Auditing |
+| **[Google Cybersecurity Activities](./cybersecurity-labs/google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment, an analysis of a data leak, a SQL filtering lab for security investigations, and a Linux least privilege lab. | Vulnerability Assessment, NIST SP 800-30, Risk Analysis, Incident Analysis, NIST SP 800-53, Access Control (Least Privilege), SQL, Threat Hunting, Data Auditing, Linux, `chmod`, File System Auditing |
 
 ---
 
@@ -55,8 +55,8 @@ Additional reports and analyses from practical lab exercises and study guides.
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[CompTIA Security+ Study Guide](https://github.com/Rey-EL/sec-plus-guide)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
-| **[NIST DDoS Incident Report](https://github.com/Rey-EL/nist-ddos-incident-report)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework.    | Incident Analysis, NIST CSF, Network Security, Incident Response                 |
+| **[CompTIA Security+ Study Guide](./cybersecurity-labs/sec-plus-guide/README.md)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
+| **[NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework.    | Incident Analysis, NIST CSF, Network Security, Incident Response                 |
 
 ---
 

@@ -1,0 +1,85 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+__pycache__/
+.Python/
+venv/
+env/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+build/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+.project
+.classpath
+.settings/
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Environment variables
+.env
+.env.*
+.flaskenv
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swo
+*.swp
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.patch
+*.diff
+.history/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+*.tfstate.d/
+.terraform.lock.hcl

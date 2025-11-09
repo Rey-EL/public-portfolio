@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore common editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
