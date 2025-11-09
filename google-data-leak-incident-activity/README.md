@@ -73,3 +73,25 @@ By implementing these technical controls, we transition from relying on employee
 ## Security Context
 
 This exercise highlights the critical importance of robust access control and incident response, principles central to frameworks like NIST. These concepts are also fundamental to addressing many vulnerabilities outlined in the OWASP Top 10, such as "Broken Access Control" and "Security Logging and Monitoring Failures," by emphasizing proactive measures and effective incident handling.
+
+---
+
+## Summary of Skills Demonstrated
+
+This exercise showcases understanding and application of:
+*   **Incident Analysis:** Deconstructing a security incident to identify the attack vector, root cause, and business impact.
+*   **NIST Cybersecurity Framework:** Structuring an incident report and response plan according to the five core functions (Identify, Protect, Detect, Respond, Recover).
+*   **Access Control Principles:** Understanding and applying the Principle of Least Privilege (NIST SP 800-53: AC-6).
+*   **Security Control Enhancement:** Recommending specific control enhancements based on established security frameworks.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or want to enhance the analysis, please feel free to open an issue or submit a pull request.
