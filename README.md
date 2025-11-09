@@ -66,7 +66,7 @@ Additional reports and analyses from practical lab exercises and study guides.
 ## Connect with Me
 
 *   **LinkedIn:** [www.linkedin.com/in/elvisreyeshernandez](www.linkedin.com/in/elvisreyeshernandez)
-*   **Email:** [elvis.reyes@live.com](mailto:elvis.reyes@live.com)
+*   **Email:** [elvis360@gmail.com](mailto:elvis360@gmail.com)
 
 ---
 
