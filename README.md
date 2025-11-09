@@ -32,10 +32,10 @@ This section features a series of standalone GUI applications built with Python,
 
 | Project                                       | Description                                                                                             | Skills Demonstrated                                       |
 | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------- |
-| **[file-janitor](./file-janitor/)**           | A tool to clean and organize folders by finding and removing duplicate files and empty directories.       | Python, `tkinter`, SHA-256 Hashing, File I/O              |
-| **[media-tidy](./media-tidy/)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
-| **[pdf-merger](./pdf-merger/)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
-| **[ppt-to-pdf-converter](./ppt-to-pdf-converter/)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
+| **[file-janitor](./file-janitor/README.md)**           | A tool to clean and organize folders by finding and removing duplicate files and empty directories.       | Python, `tkinter`, SHA-256 Hashing, File I/O              |
+| **[media-tidy](./media-tidy/README.md)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
+| **[pdf-merger](./pdf-merger/README.md)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
+| **[ppt-to-pdf-converter](./ppt-to-pdf-converter/README.md)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
 
 ---
 
@@ -45,10 +45,10 @@ This section highlights hands-on projects and analyses completed as part of the 
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Google Cybersecurity Activities](./google-cybersecurity-activities/)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment.    | Vulnerability Assessment, NIST SP 800-30, Risk Analysis                          |
-| **[Google Data Leak Analysis](./google-data-leak-incident-activity/)** | An analysis of a data leak, identifying control failures and recommending improvements based on NIST SP 800-53. | Incident Analysis, NIST SP 800-53, Access Control (Least Privilege)              |
-| **[Google SQL Filtering Lab](./google-sql-filtering-lab/)**         | A lab demonstrating SQL for security investigations, including filtering by time, date, and location.           | SQL, Threat Hunting, Data Auditing                                               |
-| **[Linux Least Privilege Lab](./linux-least-privilege-lab/)**       | A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege. | Linux, `chmod`, File System Auditing, Access Control                             |
+| **[Google Cybersecurity Activities](./google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment.    | Vulnerability Assessment, NIST SP 800-30, Risk Analysis                          |
+| **[Google Data Leak Analysis](./google-data-leak-incident-activity/README.md)** | An analysis of a data leak, identifying control failures and recommending improvements based on NIST SP 800-53. | Incident Analysis, NIST SP 800-53, Access Control (Least Privilege)              |
+| **[Google SQL Filtering Lab](./google-sql-filtering-lab/README.md)**         | A lab demonstrating SQL for security investigations, including filtering by time, date, and location.           | SQL, Threat Hunting, Data Auditing                                               |
+| **[Linux Least Privilege Lab](./linux-least-privilege-lab/README.md)**       | A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege. | Linux, `chmod`, File System Auditing, Access Control                             |
 
 ---
 
@@ -58,8 +58,8 @@ Additional reports and analyses from practical lab exercises and study guides.
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[CompTIA Security+ Study Guide](./sec-plus-guide/)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
-| **[NIST DDoS Incident Report](./nist-ddos-incident-report/)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework.    | Incident Analysis, NIST CSF, Network Security, Incident Response                 |
+| **[CompTIA Security+ Study Guide](./sec-plus-guide/README.md)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
+| **[NIST DDoS Incident Report](./nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework.    | Incident Analysis, NIST CSF, Network Security, Incident Response                 |
 
 ---
 
