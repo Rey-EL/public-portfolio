@@ -8,7 +8,7 @@ Welcome to my professional portfolio, a dynamic showcase of my expertise at the 
 
 *   [Key Skills](#key-skills)
 *   [Python Utility Scripts](#python-utility-scripts)
-*   [Google Cybersecurity Certificate Labs](#google-cybersecurity-certificate-labs)
+*   [Google Cybersecurity Certificate - Professional Portfolio](#google-cybersecurity-certificate---professional-portfolio)
 *   [Other Cybersecurity & IT Labs](#other-cybersecurity--it-labs)
 *   [Connect with Me](#connect-with-me)
 *   [License](#license)
@@ -39,7 +39,7 @@ This section features a series of standalone GUI applications built with Python,
 
 ---
 
-## Google Cybersecurity Certificate Labs
+## Google Cybersecurity Certificate - Professional Portfolio
 
 This section highlights hands-on projects and analyses completed as part of the Google Cybersecurity Certificate program, showcasing practical application of cybersecurity principles.
 
