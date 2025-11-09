@@ -67,3 +67,9 @@ These enhancements will significantly strengthen data security:
 *   **Role-based access** ensures that sensitive documents are not accessible to employees whose roles do not require it, strictly adhering to the principle of least privilege and shrinking the attack surface.
 
 By implementing these technical controls, we transition from relying on employee discretion to a more robust, automated, and auditable system for protecting confidential data.
+
+---
+
+## Security Context
+
+This exercise highlights the critical importance of robust access control and incident response, principles central to frameworks like NIST. These concepts are also fundamental to addressing many vulnerabilities outlined in the OWASP Top 10, such as "Broken Access Control" and "Security Logging and Monitoring Failures," by emphasizing proactive measures and effective incident handling.
