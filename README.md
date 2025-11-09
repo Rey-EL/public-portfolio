@@ -49,3 +49,15 @@ This section contains reports and analyses from practical lab exercises, showcas
 ### [linux-least-privilege-lab](https://github.com/Rey-EL/linux-least-privilege-lab)
 *   **Purpose:** A lab demonstrating a file permission audit and remediation in a Linux environment to enforce the Principle of Least Privilege.
 *   **Skills Demonstrated:** Linux, `chmod`, File System Auditing, Access Control.
+
+---
+
+## Security
+
+We are committed to ensuring the security of our projects. If you discover a security vulnerability, please report it responsibly by following the guidelines in our [Security Policy](./.github/SECURITY.md).
+
+---
+
+## License
+
+Unless otherwise specified within individual project directories, all projects in this repository are licensed under the MIT License. See the respective project directories for their `LICENSE.md` files.
