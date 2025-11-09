@@ -45,10 +45,7 @@ This section highlights hands-on projects and analyses completed as part of the 
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Google Cybersecurity Activities](./google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment.    | Vulnerability Assessment, NIST SP 800-30, Risk Analysis                          |
-| **[Google Data Leak Analysis](https://github.com/Rey-EL/google-data-leak-incident-activity)** | An analysis of a data leak, identifying control failures and recommending improvements based on NIST SP 800-53. | Incident Analysis, NIST SP 800-53, Access Control (Least Privilege)              |
-| **[Google SQL Filtering Lab](https://github.com/Rey-EL/google-sql-filtering-lab)**         | A lab demonstrating SQL for security investigations, including filtering by time, date, and location.           | SQL, Threat Hunting, Data Auditing                                               |
-| **[Linux Least Privilege Lab](https://github.com/Rey-EL/linux-least-privilege-lab)**       | A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege. | Linux, `chmod`, File System Auditing, Access Control                             |
+| **[Google Cybersecurity Activities](./google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment, an analysis of a data leak, a SQL filtering lab for security investigations, and a Linux least privilege lab. | Vulnerability Assessment, NIST SP 800-30, Risk Analysis, Incident Analysis, NIST SP 800-53, Access Control (Least Privilege), SQL, Threat Hunting, Data Auditing, Linux, `chmod`, File System Auditing |
 
 ---
 
