@@ -45,11 +45,7 @@ This guide is a work in progress.
     *   Audits and Assessments
     *   Security Awareness Training
 
----
 
-### Project Background
-
-For details on the project's goals, structure, and the full exam syllabus used to create this guide, please see the **[Project Charter](./project-charter.md)**.
 
 ---
 
