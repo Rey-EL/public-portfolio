@@ -1,4 +1,4 @@
-# Google Cybersecurity Certificate - Professional Portfolio
+# Google Cybersecurity Certificate Labs
 
 This repository contains a collection of hands-on projects, labs, and activities completed as part of the **Google Cybersecurity Certificate program**.
 
