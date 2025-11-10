@@ -1,7 +1,7 @@
 # Introduction to Cloud Solutions (CIS142)
 
 ## Course Overview
-In this introductory course, I gained a foundational understanding of cloud computing architecture and its inherent security considerations. I explored the myriad benefits of cloud adoption, delving into key cloud characteristics, various cloud models (IaaS, PaaS, SaaS), and diverse deployment methods. My learning encompassed cloud hardware, storage solutions, thin client technologies, and the critical role of virtualization within cloud environments. I also acquired practical skills in implementing fundamental cloud security principles and managing virtualization security. This course equipped me to effectively apply current cloud computing technologies and navigate modern cloud environments.
+In this introductory course, I gained a foundational understanding of cloud computing architecture and its inherent security considerations. I explored the myriad benefits of cloud adoption, exploring key cloud characteristics, various cloud models (IaaS, PaaS, SaaS), and diverse deployment methods. My learning encompassed cloud hardware, storage solutions, thin client technologies, and the critical role of virtualization within cloud environments. I also acquired practical skills in implementing fundamental cloud security principles and managing virtualization security. This course equipped me to effectively apply current cloud computing technologies and navigate modern cloud environments.
 
 ## Key Learning Outcomes
 - **Cloud Computing Fundamentals:** Evaluated and comprehended the core concepts, characteristics, delivery models, and benefits of cloud computing environments, virtual networks, and associated resources.

@@ -1,7 +1,7 @@
 # Advanced Windows Server (CIS251)
 
 ## Course Overview
-In this advanced course, I gained comprehensive knowledge and hands-on experience in deploying, managing, monitoring, configuring, and troubleshooting Windows Server environments. I delved into critical network services such as DNS, DHCP, Remote Access, Network Protocols, and IP Routing, mastering their implementation within a robust Windows network infrastructure. Furthermore, I acquired expertise in Network Address Translation and Certificate Services, essential components for secure and efficient network operations.
+In this advanced course, I gained comprehensive knowledge and hands-on experience in deploying, managing, monitoring, configuring, and troubleshooting Windows Server environments. I explored critical network services such as DNS, DHCP, Remote Access, Network Protocols, and IP Routing, mastering their implementation within a robust Windows network infrastructure. Furthermore, I acquired expertise in Network Address Translation and Certificate Services, essential components for secure and efficient network operations.
 
 ## Key Learning Outcomes
 - **Hyper-V Virtualization:** Successfully installed and managed virtual machines within Hyper-V, demonstrating proficiency in creating and maintaining virtualized environments.

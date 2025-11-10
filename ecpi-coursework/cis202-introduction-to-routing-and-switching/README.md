@@ -1,7 +1,7 @@
 # Introduction to Routing and Switching (CIS202)
 
 ## Course Overview
-In this intermediate course, I acquired essential knowledge and practical skills for configuring networked routers and switches. I delved into enterprise network design principles, including the implementation of InterVLAN routing and dynamic routing protocols. My learning also encompassed network address translation (NAT), fundamental router and switch security measures, and the effective use of standard access lists. By the end of this course, I was proficient in designing, configuring, securing, and troubleshooting complex routed networks.
+In this intermediate course, I acquired essential knowledge and practical skills for configuring networked routers and switches. I explored enterprise network design principles, including the implementation of InterVLAN routing and dynamic routing protocols. My learning also encompassed network address translation (NAT), fundamental router and switch security measures, and the effective use of standard access lists. By the end of this course, I was proficient in designing, configuring, securing, and troubleshooting complex routed networks.
 
 ## Key Learning Outcomes
 - **Routing and Switching Technologies:** Developed the ability to contrast and analyze the processes employed by various routing and switching technologies, enhancing my network design capabilities.
