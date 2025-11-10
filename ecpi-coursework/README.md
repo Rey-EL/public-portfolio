@@ -1,6 +1,6 @@
 # ECPI University Coursework
 
-This section showcases coursework completed at ECPI University, highlighting key learning outcomes, technologies utilized, and practical skills acquired. Each course entry is designed to serve as a portfolio piece, detailing the depth and breadth of knowledge gained.
+This section presents a curated overview of my academic journey and practical skill development at ECPI University. Each course entry serves as a testament to the knowledge and hands-on experience I gained, demonstrating my proficiency in various technical domains.
 
 ## Courses
 

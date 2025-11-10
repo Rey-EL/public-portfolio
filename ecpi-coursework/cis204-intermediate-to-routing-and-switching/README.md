@@ -1,15 +1,15 @@
 # Intermediate to Routing and Switching (CIS204)
 
 ## Course Overview
-This course provides intermediate skill level topics for configuring networked routers and switches. Students will learn network design, variable length subnets, network address translation, details on distance vector and link state routing protocols. Upon successful completion, students will be able to configure access list based security, WAN connections and troubleshooting a TCP/IP network, as well as identify the first three layers of the OSI Model.
+In this intermediate course, I developed advanced skills in configuring networked routers and switches, gaining a deep understanding of network design principles. I mastered variable length subnetting (VLSM), network address translation (NAT), and the intricacies of both distance vector and link-state routing protocols. Through hands-on exercises, I became proficient in configuring access list-based security, establishing robust WAN connections, and effectively troubleshooting complex TCP/IP networks. I also solidified my understanding of the foundational OSI Model, particularly its first three layers.
 
 ## Key Learning Outcomes
-- Explain the transport and application layers of the TCP/IP model.
-- Understand, evaluate, and apply IPv4 access lists.
-- Characterize different network security methods and services.
-- Characterize different IP services.
-- Characterize different network architectures.
-- Characterize different methods of network automation.
+- **TCP/IP Model Expertise:** Gained a thorough understanding of the transport and application layers of the TCP/IP model, enabling comprehensive network analysis.
+- **IPv4 Access List Implementation:** Developed the ability to understand, evaluate, and apply IPv4 access lists for granular network security control.
+- **Network Security Methods:** Characterized and implemented various network security methods and services, enhancing network resilience against threats.
+- **IP Services Management:** Gained proficiency in characterizing and managing diverse IP services to optimize network performance and functionality.
+- **Network Architecture Design:** Explored and characterized different network architectures, preparing me to design and implement scalable network solutions.
+- **Network Automation Fundamentals:** Understood and characterized various methods of network automation, laying the groundwork for efficient network management and orchestration.
 
 ## Technologies and Tools
 - ACLs

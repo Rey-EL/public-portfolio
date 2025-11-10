@@ -1,14 +1,14 @@
 # Computer Configuration I (CIS101)
 
 ## Course Overview
-This course provides an introduction to the major hardware and software components of computers, operating systems, and application software. Students will learn about hardware including bus systems, I/O interfaces, system resources, and CPUs. They will also learn about system software including operating systems, drivers, virtualization, and system security. Upon successful course completion students will be able to configure computer hardware and software, perform basic maintenance, and conduct data backup and recovery.
+In this foundational course, I gained a comprehensive introduction to the essential hardware and software components that constitute modern computer systems. I explored the intricacies of computer architecture, including bus systems, I/O interfaces, system resources, and central processing units (CPUs). My studies extended to system software, where I learned about operating systems, device drivers, virtualization concepts, and fundamental system security principles. Through practical application, I developed the ability to configure computer hardware and software, perform routine maintenance, and execute critical data backup and recovery procedures.
 
 ## Key Learning Outcomes
-- Basic introduction to computers
-- Describe the characteristics and basic operations of computer components.
-- Describe the interactions of hardware and software
-- Perform hardware installations and configurations for desktops and mobile devices.
-- Maintain, diagnose and troubleshoot computers and mobile devices.
+- **Computer Fundamentals:** Acquired a solid understanding of computer basics, including the characteristics and operational principles of various computer components.
+- **Hardware-Software Interaction:** Mastered the interactions between hardware and software, enabling effective system diagnosis and optimization.
+- **Hardware Installation and Configuration:** Successfully performed hardware installations and configurations for both desktop and mobile devices, demonstrating practical assembly and setup skills.
+- **System Maintenance and Troubleshooting:** Developed proficiency in maintaining, diagnosing, and troubleshooting issues across diverse computer and mobile device platforms.
+- **Data Management:** Gained hands-on experience in data backup and recovery, ensuring data integrity and system resilience.
 
 ## Technologies and Tools
 - BIOS/UEFI

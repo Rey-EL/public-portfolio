@@ -1,14 +1,14 @@
 # Introduction to Cloud Solutions (CIS142)
 
 ## Course Overview
-This course will introduce cloud computing architecture and security concepts. Students will learn about the benefits of cloud computing, cloud characteristics, cloud models and solutions along with deployment methods. Students will also gain knowledge of hardware, storage, thin clients and virtualization in the cloud and skills to implement cloud security fundamentals with virtualization security management. Upon successful course completion, students will be able to apply current cloud computing technologies and environments.
+In this introductory course, I gained a foundational understanding of cloud computing architecture and its inherent security considerations. I explored the myriad benefits of cloud adoption, delving into key cloud characteristics, various cloud models (IaaS, PaaS, SaaS), and diverse deployment methods. My learning encompassed cloud hardware, storage solutions, thin client technologies, and the critical role of virtualization within cloud environments. I also acquired practical skills in implementing fundamental cloud security principles and managing virtualization security. This course equipped me to effectively apply current cloud computing technologies and navigate modern cloud environments.
 
 ## Key Learning Outcomes
-- Evaluate the concepts, characteristics, delivery models and benefits of cloud computing environments, virtual networks, and necessary resources.
-- Evaluate the characteristics, use cases, and choices available for Public, Private, and Hybrid Cloud Computing.
-- Create, manage, and monitor compute and storage resources.
-- Evaluate the key technical, organization, security, and compliance cloud computing challenges.
-- Implement business continuity and disaster recovery strategies.
+- **Cloud Computing Fundamentals:** Evaluated and comprehended the core concepts, characteristics, delivery models, and benefits of cloud computing environments, virtual networks, and associated resources.
+- **Cloud Model Analysis:** Assessed the characteristics, use cases, and strategic choices available for Public, Private, and Hybrid Cloud Computing deployments.
+- **Resource Management:** Developed proficiency in creating, managing, and monitoring compute and storage resources within cloud platforms.
+- **Cloud Challenge Evaluation:** Critically evaluated key technical, organizational, security, and compliance challenges inherent in cloud computing, fostering a proactive approach to risk mitigation.
+- **Disaster Recovery Implementation:** Designed and implemented robust business continuity and disaster recovery strategies tailored for cloud-based infrastructures.
 
 ## Technologies and Tools
 - AWS

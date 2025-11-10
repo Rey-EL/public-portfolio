@@ -1,15 +1,15 @@
 # Linux Administration (CIS206)
 
 ## Course Overview
-This course will provide students with knowledge and basic skills to work with Linux systems. Students will learn to use, install, administer, harden, and manage Linux systems. Upon successful completion of the course, students will be able to administer the operating system, customize the system, mount and unmount devices, and do basic network administration, including administering user accounts, problem diagnostics, file and directory commands, system commands, and utilities.
+In this course, I gained comprehensive knowledge and practical skills in working with Linux systems. I learned to effectively install, configure, administer, harden, and manage various Linux distributions. Upon successful completion, I was proficient in operating system administration, system customization, device mounting and unmounting, and fundamental network administration. My expertise extends to managing user accounts, diagnosing system problems, utilizing file and directory commands, and employing essential system commands and utilities.
 
 ## Key Learning Outcomes
-- Install, configure, and harden Linux Systems
-- Perform basic Linux administration tasks
-- Perform basic files and directory tasks.
-- Manage user and group accounts and permissions
-- Work with Linux networking and diagnostic tools and utilities
-- Create simple BASH scripts to administer Linux systems
+- **Linux System Management:** Successfully installed, configured, and hardened Linux systems, demonstrating a strong grasp of secure deployment and maintenance practices.
+- **Basic Linux Administration:** Performed a wide range of basic Linux administration tasks, ensuring smooth and efficient system operation.
+- **File and Directory Operations:** Mastered fundamental file and directory tasks, including navigation, manipulation, and permission management within the Linux environment.
+- **User and Group Account Management:** Proficiently managed user and group accounts and permissions, implementing robust access control policies.
+- **Linux Networking and Diagnostics:** Utilized Linux networking and diagnostic tools and utilities to monitor network performance and troubleshoot connectivity issues.
+- **BASH Scripting:** Developed simple BASH scripts to automate administrative tasks, enhancing efficiency and consistency in Linux system management.
 
 ## Technologies and Tools
 - ACLs

@@ -1,14 +1,14 @@
 # Windows Client and Server (CIS245)
 
 ## Course Overview
-This course provides students with the knowledge to configure and manage Windows Clients within a network environment. Students will use Windows system tools to install, configure, and manage a Windows client, including troubleshooting and improving system performance. Students will also manage file storage, user accounts, and local security. Upon successful completion, students will be able to support windows client users on a network, including establishing user groups, creating and sharing system resources, and working within a centralized Windows domain.
+In this course, I acquired the essential knowledge and practical skills to configure and manage Windows Clients within diverse network environments. I became proficient in utilizing Windows system tools to install, configure, and manage Windows clients, including advanced troubleshooting techniques and performance optimization strategies. My responsibilities extended to managing file storage, user accounts, and implementing robust local security measures. Upon successful completion, I was fully capable of providing comprehensive support to Windows client users on a network, encompassing the establishment of user groups, creation and sharing of system resources, and seamless integration within a centralized Windows domain.
 
 ## Key Learning Outcomes
-- Demonstrate the ability to install Windows 10 client operating system in various scenarios
-- Manage System configuration
-- Manage file, print, and storage on Windows 10
-- Manage and monitor Windows 10 to optimize performance
-- Use Windows tools for disaster recovery
+- **Windows 10 Deployment:** Demonstrated the ability to install the Windows 10 client operating system across various deployment scenarios, ensuring successful setup and configuration.
+- **System Configuration Management:** Mastered the management of system configurations, optimizing Windows 10 environments for stability and efficiency.
+- **File, Print, and Storage Management:** Gained expertise in managing file, print, and storage services on Windows 10, ensuring data accessibility and integrity.
+- **Performance Optimization:** Proficiently managed and monitored Windows 10 systems to identify bottlenecks and implement optimizations for enhanced performance.
+- **Disaster Recovery with Windows Tools:** Utilized a suite of Windows tools to implement and execute disaster recovery procedures, safeguarding data and ensuring business continuity.
 
 ## Technologies and Tools
 - Active Directory

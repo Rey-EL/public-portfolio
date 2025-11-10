@@ -1,14 +1,14 @@
 # Advanced Windows Server (CIS251)
 
 ## Course Overview
-This course will provide students with the knowledge and skills necessary to install, manage, monitor, configure, and troubleshoot Windows Server. Topics include DNS, DHCP, Remote Access, Network Protocols, and IP Routing in a Windows network infrastructure. Students will also learn about Network Address Translation and Certificate Services.
+In this advanced course, I gained comprehensive knowledge and hands-on experience in deploying, managing, monitoring, configuring, and troubleshooting Windows Server environments. I delved into critical network services such as DNS, DHCP, Remote Access, Network Protocols, and IP Routing, mastering their implementation within a robust Windows network infrastructure. Furthermore, I acquired expertise in Network Address Translation and Certificate Services, essential components for secure and efficient network operations.
 
 ## Key Learning Outcomes
-- Install and manage VM’s in Hyper-V.
-- Implement a virtual infrastructure in Hyper-V using compute, storage, and networking components.
-- Configure common Windows services to support a typical business infrastructure.
-- Design and manage containers in Windows.
-- Implement an Active Directory infrastructure to support the needs of a typical business environment.
+- **Hyper-V Virtualization:** Successfully installed and managed virtual machines within Hyper-V, demonstrating proficiency in creating and maintaining virtualized environments.
+- **Virtual Infrastructure Implementation:** Designed and implemented a complete virtual infrastructure in Hyper-V, integrating compute, storage, and networking components to build scalable and resilient systems.
+- **Windows Services Configuration:** Configured and optimized common Windows services, ensuring seamless operation and support for typical business infrastructure requirements.
+- **Containerization with Docker:** Gained practical experience in designing and managing containers using Docker on Windows, enhancing my ability to deploy and manage applications efficiently.
+- **Active Directory Mastery:** Implemented and managed a robust Active Directory infrastructure, providing centralized authentication, authorization, and directory services crucial for enterprise environments.
 
 ## Technologies and Tools
 - Active Directory

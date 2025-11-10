@@ -1,14 +1,14 @@
 # Introduction to Networking (CIS150)
 
 ## Course Overview
-This course will provide students with an introduction to the basic concepts, technology, and terminology used in computer networks. As part of the course objectives, students will learn to configure network devices, connect them, and troubleshoot problems. Students will also learn about essential network infrastructure services and basic security. Upon successful completion of the course, students will be able simulate the design and implementation of a small network with associated security controls.
+In this introductory networking course, I gained a fundamental understanding of the core concepts, technologies, and terminology prevalent in computer networks. I acquired practical skills in configuring and connecting various network devices, alongside developing robust troubleshooting methodologies. The curriculum also covered essential network infrastructure services and foundational security principles. By the end of the course, I was proficient in simulating the design and implementation of small-scale networks, complete with appropriate security controls.
 
 ## Key Learning Outcomes
-- Diagram a home network.
-- Configure a wireless router.
-- Configure devices to connect to home wireless network.
-- Secure a home wireless network.
-- Troubleshoot a home network
+- **Network Diagramming:** Successfully diagrammed and visualized home network architectures, demonstrating an understanding of network topology.
+- **Wireless Router Configuration:** Configured wireless routers, including essential settings for connectivity and performance optimization.
+- **Device Connectivity:** Mastered the configuration of diverse devices to seamlessly connect to home wireless networks.
+- **Wireless Network Security:** Implemented and enforced security measures for home wireless networks, safeguarding against unauthorized access.
+- **Network Troubleshooting:** Developed effective strategies and techniques for diagnosing and resolving common issues within home network environments.
 
 ## Technologies and Tools
 - DHCP

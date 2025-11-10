@@ -1,15 +1,15 @@
 # Introduction to Routing and Switching (CIS202)
 
 ## Course Overview
-This course will provide students with intermediate level knowledge and skills for configuring networked routers and switches. Students will learn enterprise network design principles, including implementing InterVLAN routing and dynamic routing protocols. They will also learn network address translation, basic router and switch security, and standard access list usage. Upon successful completion, students will be able to design, configure, secure and troubleshoot a routed network.
+In this intermediate course, I acquired essential knowledge and practical skills for configuring networked routers and switches. I delved into enterprise network design principles, including the implementation of InterVLAN routing and dynamic routing protocols. My learning also encompassed network address translation (NAT), fundamental router and switch security measures, and the effective use of standard access lists. By the end of this course, I was proficient in designing, configuring, securing, and troubleshooting complex routed networks.
 
 ## Key Learning Outcomes
-- Contrast the processes used by routing and switching technologies.
-- Demonstrate switched networking and switch configuration including VLANs.
-- Configure standard LAN/WAN connections using IP.
-- Given a network topology, configure and test static, default, and dynamic routing.
-- Configure network services.
-- Demonstrate router and switch security options including implementing an access list.
+- **Routing and Switching Technologies:** Developed the ability to contrast and analyze the processes employed by various routing and switching technologies, enhancing my network design capabilities.
+- **Switched Networking and VLANs:** Demonstrated expertise in switched networking concepts and switch configuration, including the implementation and management of Virtual Local Area Networks (VLANs).
+- **LAN/WAN Connectivity:** Configured standard Local Area Network (LAN) and Wide Area Network (WAN) connections using IP, ensuring seamless network communication.
+- **Routing Protocol Implementation:** Successfully configured and tested static, default, and dynamic routing protocols based on given network topologies, optimizing data flow and network resilience.
+- **Network Services Configuration:** Gained proficiency in configuring essential network services to support robust and efficient network operations.
+- **Router and Switch Security:** Implemented and demonstrated various router and switch security options, including the deployment of access lists to safeguard network infrastructure.
 
 ## Technologies and Tools
 - ACLs
