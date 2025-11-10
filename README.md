@@ -10,8 +10,10 @@ Welcome to my professional portfolio, a dynamic showcase of my expertise at the 
 *   [Python Utility Scripts](#python-utility-scripts)
 *   [Google Cybersecurity Certificate - Professional Portfolio](#google-cybersecurity-certificate---professional-portfolio)
 *   [Other Cybersecurity & IT Labs](#other-cybersecurity--it-labs)
+*   [ECPI University Coursework](#ecpi-university-coursework)
 *   [Connect with Me](#connect-with-me)
 *   [License](#license)
+*   [Contributing](#contributing)
 
 ---
 
