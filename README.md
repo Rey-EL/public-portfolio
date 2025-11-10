@@ -60,6 +60,14 @@ Additional reports and analyses from practical lab exercises and study guides.
 
 ---
 
+## ECPI University Coursework
+
+This section provides an overview of my academic journey at ECPI University, highlighting key courses and the practical skills acquired.
+
+*   **[ECPI Coursework Overview](./ecpi-coursework/README.md)**
+
+---
+
 ## Connect with Me
 
 *   **LinkedIn:** [www.linkedin.com/in/elvisreyeshernandez](www.linkedin.com/in/elvisreyeshernandez)
