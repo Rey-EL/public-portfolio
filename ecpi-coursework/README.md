@@ -18,7 +18,7 @@ This section presents a curated overview of my academic journey and practical sk
 - [Windows Client and Server (CIS245)](cis245-windows-client-and-server/README.md)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](../../LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
 
 ## Contributing
-Contributions are welcome! Please see the [CONTRIBUTING.md](../../CONTRIBUTING.md) for details.
+Contributions are welcome! Please see the [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
