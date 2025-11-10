@@ -22,7 +22,7 @@ In this introductory networking course, I gained a fundamental understanding of 
 - Wi-Fi
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
 
 ## Contributing
-Contributions are welcome! Please see the [CONTRIBUTING.md](../../CONTRIBUTING.md) for details.
+Contributions are welcome! Please see the [CONTRIBUTING.md](/CONTRIBUTING.md) for details.

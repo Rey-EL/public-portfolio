@@ -22,7 +22,7 @@ In this intermediate course, I honed my skills in configuring networked routers 
 *   Network Automation (SDN, SDA, REST, JSON, Ansible, Puppet, Chef)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
 
 ## Contributing
-Contributions are welcome! Please refer to the [CONTRIBUTING.md](../../CONTRIBUTING.md) for guidelines.
+Contributions are welcome! Please refer to the [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
