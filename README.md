@@ -45,7 +45,7 @@ This section highlights hands-on projects and analyses completed as part of the 
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Google Cybersecurity Activities](./cybersecurity-labs/google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment, an analysis of a data leak, a SQL filtering lab for security investigations, and a Linux least privilege lab. | Vulnerability Assessment, NIST SP 800-30, Risk Analysis, Incident Analysis, NIST SP 800-53, Access Control (Least Privilege), SQL, Threat Hunting, Data Auditing, Linux, `chmod`, File System Auditing |
+| **[Google Cybersecurity Certificate Activities](./cybersecurity-labs/google-cybersecurity-activities/README.md)** | A collection of hands-on labs from the Google Cybersecurity Certificate, including a vulnerability assessment, an analysis of a data leak, a SQL filtering lab for security investigations, and a Linux least privilege lab. | Vulnerability Assessment, NIST SP 800-30, Risk Analysis, Incident Analysis, NIST SP 800-53, Access Control (Least Privilege), SQL, Threat Hunting, Data Auditing, Linux, `chmod`, File System Auditing |
 
 ---
 
