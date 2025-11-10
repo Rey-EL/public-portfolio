@@ -68,5 +68,7 @@ Additional reports and analyses from practical lab exercises and study guides.
 ---
 
 ## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-All projects in this repository are licensed under the [MIT License](./LICENSE.md), unless otherwise specified within the project's directory.
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or want to enhance the report, please feel free to open an issue or submit a pull request.

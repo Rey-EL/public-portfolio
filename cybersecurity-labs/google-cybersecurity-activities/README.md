@@ -8,11 +8,11 @@ The purpose of this portfolio is to demonstrate the practical application of cyb
 
 *   **[Vulnerability Assessment for a Small Business](./vulnerability-assessment-activity/README.md)**
     *   A project focused on conducting a formal vulnerability assessment using the NIST SP 800-30 Rev. 1 framework to identify, analyze, and propose remediation for critical security risks.
-*   **[Google Data Leak Analysis](https://github.com/Rey-EL/public-portfolio/blob/main/cybersecurity-labs/google-data-leak-incident-activity/README.md)**
+*   **[Google Data Leak Analysis](./google-data-leak-incident-activity/README.md)**
     *   An analysis of a data leak, identifying control failures and recommending improvements based on NIST SP 800-53.
-*   **[Google SQL Filtering Lab](https://github.com/Rey-EL/public-portfolio/blob/main/cybersecurity-labs/google-sql-filtering-lab/README.md)**
+*   **[Google SQL Filtering Lab](./google-sql-filtering-lab/README.md)**
     *   A lab demonstrating SQL for security investigations, including filtering by time, date, and location.
-*   **[Linux Least Privilege Lab](https://github.com/Rey-EL/public-portfolio/blob/main/cybersecurity-labs/linux-least-privilege-lab/README.md)**
+*   **[Linux Least Privilege Lab](./linux-least-privilege-lab/README.md)**
     *   A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege.
 
 ---
