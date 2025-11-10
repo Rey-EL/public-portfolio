@@ -66,6 +66,7 @@ Additional reports and analyses from practical lab exercises and study guides.
 
 | Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
 | :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| **[VMware Workstation and Kali Linux Setup (Windows Host)](./cybersecurity-labs/vmware-kali-setup/README.md)** | Documenting the installation of VMware Workstation Pro and deployment of a Kali Linux virtual machine on a Windows host.              | Virtualization, Windows, Linux, System Administration, Cybersecurity Lab Setup            |
 | **[CompTIA Security+ Study Guide](./cybersecurity-labs/sec-plus-guide/README.md)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
 | **[NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework. | Incident Analysis, NIST CSF, Network Security, Incident Response |
 
