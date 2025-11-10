@@ -17,7 +17,7 @@ Welcome to my professional portfolio, a dynamic showcase of my expertise at the 
 
 ## Key Skills
 
-My projects demonstrate proficiency across a range of critical technical and cybersecurity domains:
+My portfolio demonstrate proficiency across a range of critical technical and cybersecurity domains:
 
 *   **Programming & Scripting:** Python, C Programming, Bash Scripting, Shell Scripting, SQL, GUI Development (`tkinter`), COM Automation (`win32com`), Algorithmic Design (Flowcharts, Pseudocode), Structured Program Logic (sequential, looping, selection), C Functions Implementation, Array Management, Formatted I/O (C)
 *   **Operating Systems & Administration:** Linux Administration (Installation, Configuration, Hardening, Management), Windows Server Administration (Deployment, Management, Monitoring, Configuration, Troubleshooting), Windows Client Management (Installation, Configuration, Management, Troubleshooting Windows 10), Operating System Fundamentals (Windows, Linux, macOS), System Configuration and Maintenance, Command Line Proficiency, File and Directory Operations (Linux), User and Group Account Management (Linux, Active Directory), System Maintenance and Troubleshooting, BIOS/UEFI, Windows 10 Deployment, Windows Server 2019
