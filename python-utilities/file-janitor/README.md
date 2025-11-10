@@ -30,18 +30,6 @@ FileJanitor is a local utility script and does not interact with networks or ext
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](./LICENSE.md) - see the LICENSE.md file for details.
-
----
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements, bug reports, or want to add new features, please feel free to open an issue or submit a pull request.
-
----
-
 ## Installation & Setup
 
 To use FileJanitor, you need Python 3.
@@ -79,3 +67,15 @@ To use FileJanitor, you need Python 3.
     ```
 
 4.  **Check the Log:** After the script finishes, a log file named `FileJanitor_log_...txt` will be created in the same directory. You can review it for a detailed record of all operations.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE.md) - see the LICENSE.md file for details.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements, bug reports, or want to add new features, please feel free to open an issue or submit a pull request.
