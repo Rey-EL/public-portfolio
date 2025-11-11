@@ -3,7 +3,7 @@
 ## Phase 1: Foundation and Initial Failure (The Speed vs. Intelligence Paradox)
 
 ### Initial Setup & Diagnostics:
-The project commenced with the deployment of the Ollama LLM service within the Ubuntu instance of WSL 2, utilizing the Windows 11 host (Alfunz). Resource verification was performed via PowerShell (Get-CimInstance Win32_VideoController) confirming the NVIDIA RTX 4080 GPU (16GB VRAM) and 64GB System RAM. This validated the foundational environment for GPU-accelerated workloads. The largest model, llama3:70b (bigllama), was pulled and configured as the default LLM.
+Initial architectural plans involved deploying the Ollama LLM service within the WSL 2 Ubuntu instance to maintain a Linux-centric workflow. However, a pre-deployment analysis identified a critical performance risk: potential bottlenecks in GPU resource allocation when accessed through the WSL virtualization layer. To mitigate this risk and guarantee maximum hardware acceleration, a strategic pivot was made. The Ollama service was deployed natively on the Windows 11 host (Alfunz), ensuring direct, low-level access to the NVIDIA RTX 4080's full capabilities. Resource verification via PowerShell confirmed the 16GB VRAM and 64GB System RAM, validating the foundational environment. The largest model, llama3:70b (bigllama), was then pulled and configured as the default LLM.
 
 ### The First Test (Critical Failure):
 Upon running a simple text generation query, the system exhibited unacceptable token latency.
@@ -59,7 +59,7 @@ This section breaks down the technical terms used in this project log in simple,
 
 *   **Ollama:** A tool that makes it easy to run powerful LLMs, like Llama 3, on your own computer.
 
-*   **WSL 2 (Windows Subsystem for Linux 2):** A feature in Windows that lets you run a full Linux environment directly on your Windows machine without needing a separate computer. This project used it to run the AI tools in an Ubuntu environment on a Windows 11 host.
+*   **WSL 2 (Windows Subsystem for Linux 2):** A feature in Windows that lets you run a full Linux environment directly on your Windows machine. The initial plan was to run the AI tools within WSL to maintain a Linux-centric workflow, but the final decision was to run them natively on Windows to ensure optimal GPU performance.
 
 *   **VRAM (Video RAM):** Extremely fast memory located directly on the Graphics Processing Unit (GPU). It is essential for AI and gaming because it allows the GPU to access data almost instantly. The 16GB of VRAM on the RTX 4080 was a critical hardware limitation in this project.
 
