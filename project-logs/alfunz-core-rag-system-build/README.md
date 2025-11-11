@@ -49,6 +49,34 @@ A comprehensive audit of the system governance was performed to remove points of
 ### Final Technical Outcome:
 The project concluded with the successful establishment of the Alfunz-Core system. The technical trajectory revealed that for high-performance, private RAG applications on consumer-grade hardware, stability must be prioritized over advanced autonomy. The final setup is optimized for speed and reliability, delivering fast, highly-formatted, and auditable responses rooted exclusively in the secure GitHub data.
 
+## Key Terminology Explained
+
+This section breaks down the technical terms used in this project log in simple, understandable language.
+
+*   **RAG (Retrieval-Augmented Generation):** A method to make Large Language Models (LLMs) more accurate. Instead of just using its memorized knowledge, the AI first "retrieves" relevant information from a specific set of documents (like your private files) and then uses that information to "generate" a well-informed answer. It is like giving the AI an open book for an exam.
+
+*   **LLM (Large Language Model):** The core "brain" of the AI system. It is a massive neural network trained on a huge amount of text data, which allows it to understand and generate human-like language. In this project, `llama3:70b` (big) and `llama3:8b` (small) are two different sizes of LLMs.
+
+*   **Ollama:** A tool that makes it easy to run powerful LLMs, like Llama 3, on your own computer.
+
+*   **WSL 2 (Windows Subsystem for Linux 2):** A feature in Windows that lets you run a full Linux environment directly on your Windows machine without needing a separate computer. This project used it to run the AI tools in an Ubuntu environment on a Windows 11 host.
+
+*   **VRAM (Video RAM):** Extremely fast memory located directly on the Graphics Processing Unit (GPU). It is essential for AI and gaming because it allows the GPU to access data almost instantly. The 16GB of VRAM on the RTX 4080 was a critical hardware limitation in this project.
+
+*   **System RAM:** The main memory of your computer, used by the CPU and other components. It is much larger than VRAM (64GB in this case) but also significantly slower.
+
+*   **PCIe bus:** The physical connection on a computer's motherboard that allows components like the GPU to communicate with the CPU and System RAM. When an AI model is too big for VRAM, it must constantly transfer data over this "bus," which creates a major speed bottleneck.
+
+*   **Token Latency:** The delay you experience when waiting for an AI to produce the next word or "token" in its response. High latency means a slow, unresponsive AI, which was the main problem with the large model in this project.
+
+*   **API Key:** A unique password or code that grants a program access to a specific service. In this log, an API key was used to give AnythingLLM secure access to private GitHub repositories.
+
+*   **System Prompt:** A set of instructions given to the AI to govern its behavior. It acts like a constitution or rulebook, telling the AI how to format its answers, what topics to avoid, and what tools to use.
+
+*   **Hallucination:** An event where an AI generates incorrect, nonsensical, or completely made-up information but presents it as fact. This happens when the model tries to answer a question but does not have the correct information in its memory.
+
+*   **Agent / Workspace Agent:** A specialized function within the AI system designed to perform complex tasks by reasoning and deciding which tools to use (like a web search or a calculator). In this project, the "agent" was not reliable with the smaller, faster model.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
