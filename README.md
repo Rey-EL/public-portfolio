@@ -50,7 +50,7 @@ This section features a series of standalone GUI applications built with Python,
 
 ---
 
-## Google Cybersecurity Certificate - Professional Portfolio
+Google Cybersecurity Certificate
 
 This section highlights hands-on projects and analyses completed as part of the Google Cybersecurity Certificate program, showcasing practical application of cybersecurity principles.
 
