@@ -15,7 +15,7 @@ The USB drive belonged to Jorge Bailey, the human resource manager at Rhetorical
 
 ## Attacker mindset
 
-An attacker could have used the files on Jorge's USB drive as a distraction, potentially having staged the entire event. While an unsuspecting target browsed the files, the attacker could have established a backdoor into the company's systems. The sensitive information, including PII, could have been used to target Jorge or others around him, or to gain unauthorized access to the hospital's network.
+An attacker could have used the files on Jorge's USB drive as a distraction, potentially having staged the entire event. For example, while an unsuspecting target browsed the family photos, hidden malware could establish a backdoor into the company's systems. The sensitive information, including PII, could also be used to target Jorge or others around him. For instance, an attacker could use Jorge's resume to craft a convincing phishing email to his colleagues, or use details from the wedding plans to manipulate a relative into revealing more information.
 
 ## Risk analysis
 
@@ -30,3 +30,7 @@ USB baiting attacks can deliver malicious software like malware, which could inf
 *   **Virtualization Software:** Software used to safely investigate an unfamiliar USB stick by running a simulated instance of a computer.
 *   **Autorun:** A feature that causes removable media to open automatically when inserted.
 *   **Encryption:** A security feature used to protect data on a USB drive.
+
+## Reflection
+
+This activity highlighted the importance of understanding attack vectors related to removable media. Analyzing the scenario demonstrated how a seemingly innocent object like a lost USB drive can represent a security risk. It reinforced the concept that security is not just about technical controls, but also about user awareness and having established procedures for handling such incidents. The exercise served as a valuable reminder of the adversarial mindset needed in cybersecurity to anticipate and mitigate potential threats.
