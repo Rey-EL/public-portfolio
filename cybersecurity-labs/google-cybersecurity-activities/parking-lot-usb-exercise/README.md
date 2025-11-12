@@ -35,3 +35,11 @@ USB baiting attacks can deliver malicious software like malware, which could inf
 ## Reflection
 
 This activity highlighted the importance of understanding attack vectors related to removable media. Analyzing the scenario demonstrated how a seemingly innocent object like a lost USB drive can represent a security risk. It reinforced the concept that security is not just about technical controls, but also about user awareness and having established procedures for handling such incidents, like using a **sandbox** for analysis. The exercise served as a valuable reminder of the adversarial mindset needed in cybersecurity to anticipate and mitigate potential threats.
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or want to enhance the lab, please feel free to open an issue or submit a pull request.
