@@ -7,7 +7,7 @@ In this activity, the goal was to assess the attack vectors of a USB drive. The 
 
 ## Scenario
 
-As part of the security team at Rhetorical Hospital, I arrived at work one morning and found a USB stick with the hospital's logo printed on it. There was no one else around who might have dropped it, so I decided to pick it up out of curiosity. I brought the USB drive back to the office where the team had virtualization software installed on a workstation. Virtualization software can be used for this very purpose because it is one of the only ways to safely investigate an unfamiliar USB stick. The software works by running a simulated instance of the computer on the same workstation. This simulation is not connected to other files or networks, so the USB drive cannot affect other systems if it happens to be infected with malicious software.
+As part of the security team at Rhetorical Hospital, I arrived at work one morning and found a USB stick with the hospital's logo printed on it. I brought the USB drive back to the office where the team had virtualization software installed on a workstation. This software was used to create a **sandbox**—a simulated instance of a computer that is isolated from other files and networks. This sandboxing technique is one of the only ways to safely investigate an unfamiliar USB stick because it ensures that if the drive is infected with malicious software, it cannot affect other systems.
 
 ## Contents
 
@@ -19,7 +19,7 @@ An attacker could have used the files on Jorge's USB drive as a distraction, pot
 
 ## Risk analysis
 
-USB baiting attacks can deliver malicious software like malware, which could infect a computer if an employee plugged in an infected device. To mitigate these risks, organizations should implement controls such as disabling Autorun, using security software, and keeping personal and business USB drives separate. It is also crucial to use passwords and encryption on USB drives and to train employees not to plug unknown USB drives into their computers, instead reporting them to IT.
+USB baiting attacks can deliver malicious software like malware, which could infect a computer if an employee plugged in an infected device. To mitigate these risks, organizations should implement controls such as disabling Autorun, using security software, and keeping personal and business USB drives separate. It is also crucial to use passwords and encryption on USB drives and to train employees not to plug unknown USB drives into their computers, instead reporting them to IT for analysis in a **sandbox** environment.
 
 ## Key Terms
 
@@ -27,10 +27,11 @@ USB baiting attacks can deliver malicious software like malware, which could inf
 *   **Attack Vectors:** The means by which an attacker can gain access to a computer or network.
 *   **Malware:** Malicious software that can infect computers.
 *   **PII (Personally Identifiable Information):** Sensitive information that can be used to target a data owner or others around them.
-*   **Virtualization Software:** Software used to safely investigate an unfamiliar USB stick by running a simulated instance of a computer.
+*   **Sandboxing:** The practice of running software in an isolated environment (a "sandbox") to safely observe its behavior without affecting the main system.
+*   **Virtualization Software:** Software used to create a simulated instance of a computer, often for sandboxing purposes.
 *   **Autorun:** A feature that causes removable media to open automatically when inserted.
 *   **Encryption:** A security feature used to protect data on a USB drive.
 
 ## Reflection
 
-This activity highlighted the importance of understanding attack vectors related to removable media. Analyzing the scenario demonstrated how a seemingly innocent object like a lost USB drive can represent a security risk. It reinforced the concept that security is not just about technical controls, but also about user awareness and having established procedures for handling such incidents. The exercise served as a valuable reminder of the adversarial mindset needed in cybersecurity to anticipate and mitigate potential threats.
+This activity highlighted the importance of understanding attack vectors related to removable media. Analyzing the scenario demonstrated how a seemingly innocent object like a lost USB drive can represent a security risk. It reinforced the concept that security is not just about technical controls, but also about user awareness and having established procedures for handling such incidents, like using a **sandbox** for analysis. The exercise served as a valuable reminder of the adversarial mindset needed in cybersecurity to anticipate and mitigate potential threats.
