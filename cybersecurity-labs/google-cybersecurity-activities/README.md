@@ -6,15 +6,15 @@ The purpose of this portfolio is to demonstrate the practical application of cyb
 
 ## Projects
 
-*   **[Vulnerability Assessment for a Small Business](./vulnerability-assessment-activity/README.md)**
+*   **[Vulnerability Assessment for a Small Business Lab](./vulnerability-assessment-activity/README.md)**
     *   A project focused on conducting a formal vulnerability assessment using the NIST SP 800-30 Rev. 1 framework to identify, analyze, and propose remediation for critical security risks.
-*   **[Google Data Leak Analysis](../google-data-leak-incident-activity/README.md)**
+*   **[Google Data Leak Analysis Lab](../google-data-leak-incident-activity/README.md)**
     *   An analysis of a data leak, identifying control failures and recommending improvements based on NIST SP 800-53.
 *   **[Google SQL Filtering Lab](../google-sql-filtering-lab/README.md)**
     *   A lab demonstrating SQL for security investigations, including filtering by time, date, and location.
 *   **[Linux Least Privilege Lab](../linux-least-privilege-lab/README.md)**
     *   A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege.
-*   **[Parking Lot USB Exercise](./parking-lot-usb-exercise/README.md)**
+*   **[Parking Lot USB Exercise Lab](./parking-lot-usb-exercise/README.md)**
     *   An exercise demonstrating the risks of USB baiting and how to safely inspect unknown devices.
 
 ---
