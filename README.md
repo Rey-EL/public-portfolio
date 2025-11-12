@@ -8,7 +8,7 @@ Welcome to my professional portfolio, a dynamic showcase of my expertise at the 
 
 *   [Key Skills](#key-skills)
 *   [Python Utility Scripts](#python-utility-scripts)
-*   [Google Cybersecurity Certificate - Professional Portfolio](#google-cybersecurity-certificate---professional-portfolio)
+*   [Google Cybersecurity Certificate](#google-cybersecurity-certificate)
 *   [Other Cybersecurity & IT Labs](#other-cybersecurity--it-labs)
 *   [ECPI University Coursework](#ecpi-university-coursework)
 *   [Connect with Me](#connect-with-me)
@@ -50,7 +50,7 @@ This section features a series of standalone GUI applications built with Python,
 
 ---
 
-Google Cybersecurity Certificate
+## Google Cybersecurity Certificate
 
 This section highlights hands-on projects and analyses completed as part of the Google Cybersecurity Certificate program, showcasing practical application of cybersecurity principles.
 
