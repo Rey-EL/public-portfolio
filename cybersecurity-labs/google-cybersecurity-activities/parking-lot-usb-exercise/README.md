@@ -15,13 +15,13 @@ The USB drive contained a mix of personal and work files, including family photo
 
 ## Attacker mindset
 
-An attacker could leverage the information on the drive in several ways. For example, they could launch a **spear-phishing** attack by using the resume to impersonate the employee, "Jorge," and email a colleague from a fake but similar address to request a sensitive file. Personal details from photos, like a pet's name, could be used to guess passwords for business systems (e.g., "Buddy123!"). An attacker could also use details from wedding plans to create a convincing pretext, perhaps calling a relative while posing as a hospital administrator to trick them into revealing more information. The goal would be to use this initial access to infiltrate the hospital's network and steal valuable data.
+An attacker could leverage the information on the drive in several ways. For example, they could launch a **spear-phishing** attack by using the resume to impersonate the employee, "Jorge," and email a colleague from a fake but similar address to request a sensitive file. Personal details from photos, like a pet's name, could be used to guess passwords for business systems (e.g., "Buddy123!"). An attacker could also use details from wedding plans to establish credibility in social engineering attempts, potentially manipulating individuals connected to Jorge into divulging sensitive data. The goal would be to use this initial access to infiltrate the hospital's network and steal valuable data.
 
 ## Risk analysis
 
 To mitigate these types of attacks, an organization can implement layered controls. Technical controls include disabling autorun on workstations and using endpoint security to scan all removable media for malicious software like ransomware or keyloggers. Managerial controls should include a clear policy that prohibits mixing personal and work data on unsecured devices and mandates encryption. Operationally, security awareness training is useful for teaching employees to report found devices and to understand that the only safe way to inspect them is within a controlled **sandbox** environment, preventing a network-wide infection.
 
-## Key Terms for the Non-Technical Reader
+## Key Terms
 
 *   **USB Baiting:** The act of leaving an infected USB drive for someone to find and use, which then infects their computer.
 *   **Attack Vector:** A path or means by which an attacker can gain access to a computer or network.
