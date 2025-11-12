@@ -15,3 +15,11 @@ USB drives can carry harmful software such as keyloggers, ransomware, or remote 
 ## Reflection
 
 This activity showed how USB baiting works and why it is a serious security risk. I learned how to safely inspect a USB drive using virtualization software, which acted as a sandbox to protect the system. I also saw how attackers might use the files to target people or systems. The exercise supported key lessons from the Google Cybersecurity Certificate, including how to protect data, recognize attack methods, and respond to real threats.
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or want to enhance the lab, please feel free to open an issue or submit a pull request.
