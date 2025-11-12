@@ -7,7 +7,7 @@ This activity served as a practical exploration into the significant cybersecuri
 
 ## Scenario
 
-As part of the security team at Rhetorical Hospital, I arrived at work one morning and found a USB stick with the hospital's logo printed on it on the ground of the parking lot. There was no one else around who might have dropped it, so I decided to pick it up out of curiosity. I brought the USB drive back to the office where the team had virtualization software installed on a workstation. Virtualization software was used for this purpose because it is one of the only ways to safely investigate an unfamiliar USB stick. The software worked by running a simulated instance of the computer on the same workstation. This simulation was not connected to other files or networks, so the USB drive could not affect other systems if it happened to be infected with malicious software.
+As part of the security team at Rhetorical Hospital, I found a USB stick with the hospital's logo on it in the parking lot. I brought the USB drive back to the office for safe analysis. To do this, I used virtualization software to create a **sandbox**, which is an isolated, simulated computer instance. This sandboxing technique is critical because it allows for the safe investigation of a suspicious device without connecting it to the hospital's network or files, preventing any potential malware from causing harm.
 
 ## Contents
 
@@ -15,12 +15,21 @@ The USB drive contained a mix of personal and work files, including family photo
 
 ## Attacker mindset
 
-An attacker could have leveraged the information to launch a spear-phishing attack against Jorge or his colleagues by impersonating him, or used personal details from his resume and photos to guess passwords for critical business systems. The information on the drive could also have been used to create convincing pretexts to target Jorge's relatives in sophisticated social engineering schemes. Ultimately, by exploiting this information, an attacker's goal would have been to gain unauthorized access to the hospital's network, escalate privileges, and exfiltrate sensitive data.
+An attacker could have leveraged the information on the drive in several ways. For example, they could launch a **spear-phishing** attack by using the resume to impersonate the employee, "Jorge," and email a colleague from a fake but similar address to request a sensitive file. Personal details from photos, like a pet's name, could be used to guess passwords for business systems (e.g., "Buddy123!"). An attacker could also use details from wedding plans to create a convincing pretext, perhaps calling a relative while posing as a hospital administrator to trick them into revealing more information. The ultimate goal would be to use this initial access to infiltrate the hospital's network and steal valuable data.
 
 ## Risk analysis
 
-To mitigate these types of attacks, an organization must implement layered controls. Technical controls include disabling autorun on workstations and using endpoint security software to scan all removable media for malicious software like ransomware or keyloggers. Managerial controls should include a clear policy that prohibits mixing personal and work data on unsecured devices and mandates encryption for all data in transit. Operationally, security awareness training is crucial to teach employees to report found devices immediately and understand that plugging one into a networked computer could lead to a catastrophic network-wide infection, potentially compromising sensitive patient or financial information.
+To mitigate these types of attacks, an organization must implement layered controls. Technical controls include disabling autorun on workstations and using endpoint security to scan all removable media for malicious software like ransomware or keyloggers. Managerial controls should include a clear policy that prohibits mixing personal and work data on unsecured devices and mandates encryption. Operationally, security awareness training is crucial to teach employees to report found devices and to understand that the only safe way to inspect them is within a controlled **sandbox** environment, preventing a network-wide infection.
+
+## Key Terms for the Non-Technical Reader
+
+*   **USB Baiting:** The act of leaving an infected USB drive for someone to find and use, which then infects their computer.
+*   **Attack Vector:** A path or means by which an attacker can gain access to a computer or network.
+*   **Social Engineering:** The act of tricking people into giving up confidential information or taking a specific action.
+*   **Spear Phishing:** A targeted email scam sent to a specific person or organization, often containing personalized information to make it seem legitimate.
+*   **Sandboxing:** A security practice where a program or file is run in an isolated environment (a "sandbox") to see how it behaves without risking harm to the main system.
+*   **Personally Identifiable Information (PII):** Any data that could be used to identify a specific person, such as a name, address, or phone number.
 
 ## Reflection
 
-This activity showed how USB baiting works and why it is a serious security risk. I learned how to safely inspect a USB drive using virtualization software, which acted as a sandbox to protect the system. I also saw how attackers might use the files to target people or systems. The exercise supported key lessons from the Google Cybersecurity Certificate, including how to protect data, recognize attack methods, and respond to real threats.
+This activity showed how USB baiting works and why it is a serious security risk. I learned how to safely inspect a USB drive using virtualization software, which created a **sandbox** to protect the system. I also saw how attackers might use the files to target people or systems. The exercise supported key lessons from the Google Cybersecurity Certificate, including how to protect data, recognize attack methods, and respond to real threats.
