@@ -14,6 +14,8 @@ The purpose of this portfolio is to demonstrate the practical application of cyb
     *   A lab demonstrating SQL for security investigations, including filtering by time, date, and location.
 *   **[Linux Least Privilege Lab](../linux-least-privilege-lab/README.md)**
     *   A lab demonstrating a file permission audit and remediation in Linux to enforce the Principle of Least Privilege.
+*   **[Parking Lot USB Exercise](./parking-lot-usb-exercise/README.md)**
+    *   An exercise demonstrating the risks of USB baiting and how to safely inspect unknown devices.
 
 ---
 
