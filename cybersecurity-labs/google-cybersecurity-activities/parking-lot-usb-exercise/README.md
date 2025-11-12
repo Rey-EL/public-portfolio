@@ -1,20 +1,68 @@
-# Parking Lot USB Exercise
+# Cybersecurity Lab: The Parking Lot USB Drop
 
-## Contents
+## 1. Overview
 
-The USB drive contained a mix of personal and work files. It included family photos, pet pictures, wedding plans, Jorge’s resume, employee shift schedules, budget documents, and a new hire letter. These files contained personally identifiable information. It is not safe to store personal files with work files on the same device.
+This document details a hands-on lab exercise simulating a common physical security threat: the discovery of a potentially malicious USB drive. The objective of this exercise was to apply proper security protocols to investigate an unknown storage device in a controlled environment, analyze its contents, and assess the potential risks from both a defensive and an offensive security perspective.
 
-## Attacker Mindset
+This exercise is a practical application of the concepts covered in the Google Cybersecurity Certificate, demonstrating the ability to identify attack vectors, utilize sandboxing environments, and analyze potential social engineering tactics.
 
-An attacker could use Jorge’s resume to learn his job title, contact information, and work history. This could be used to send fake emails pretending to be Jorge or to trick other employees into sharing sensitive data. The wedding plans and pet photos could help guess passwords or create fake messages aimed at Jorge’s family. If the USB was left intentionally by a threat actor, the goal may have been to get a curious person to plug it in without thinking. The mix of casual and professional files could make the USB appear harmless and keep that person focused on browsing through them, while hidden malware quietly installs in the background and gives the attacker access to the computer or the hospital’s network.
+## 2. Scenario
 
-## Risk Analysis
+As a member of the security team at a fictional organization, "Rhetorical Hospital," I discovered a USB stick on the ground in the employee parking lot. The device was branded with the hospital's logo, suggesting it might belong to a colleague and contain work-related files. With no one nearby to claim it, I followed security protocols by taking the device for analysis rather than leaving it or plugging it into a networked workstation.
 
-USB drives can carry harmful software such as keyloggers, ransomware, or remote access tools. If the device had been infected and plugged into a regular computer, it could have damaged hospital systems. A threat actor could find sensitive information and use it to harm individuals or the organization. To reduce these risks, organizations should disable autorun, use security software, keep personal and business USBs separate, and inspect unknown devices only in virtual environments.
+## 3. Objective
 
-## Reflection
+The primary goal was to safely determine the nature of the USB drive and its contents without exposing any hospital systems to potential malware. This involved:
+-   **Safely accessing the device:** Using a secure, isolated environment to prevent any potential malware from executing on a live system.
+-   **Analyzing the contents:** Identifying the types of files stored on the drive.
+-   **Assessing the risk:** Evaluating the potential security threats posed by the files, whether the USB drop was accidental or a deliberate "USB baiting" attack.
 
-This activity showed how USB baiting works and why it is a serious security risk. I learned how to safely inspect a USB drive using virtualization software, which acted as a sandbox to protect the system. I also saw how attackers might use the files to target people or systems. The exercise supported key lessons from the Google Cybersecurity Certificate, including how to protect data, recognize attack methods, and respond to real threats.
+## 4. Methodology: The Virtualized Sandbox
+
+To safely inspect the USB drive, I utilized a **virtualization software** installed on a dedicated workstation. This created a sandboxed environment—a simulated computer instance completely isolated from the hospital's network and the host machine's file system.
+
+This approach ensured that if the USB drive contained any malicious software (e.g., ransomware, keyloggers, remote access trojans), it would be confined within the virtual machine, preventing it from infecting the host computer or spreading across the network.
+
+## 5. Findings: A Mix of Personal and Professional Data
+
+Upon mounting the USB drive within the sandboxed environment, I discovered a combination of personal and work-related files belonging to a fictional employee named "Jorge."
+
+-   **Work-Related Files:** Employee shift schedules, budget documents, and a new hire letter.
+-   **Personal Files:** Family photos, pet pictures, wedding plans, and Jorge's resume.
+
+The presence of both work and personal files, including Personally Identifiable Information (PII), highlights a common but risky behavior of commingling data on a single, portable device.
+
+## 6. Attacker's Perspective: Exploiting the Find
+
+From an attacker's point of view, this USB drive is a treasure trove of information that can be used for social engineering and other attacks:
+
+-   **Spear Phishing:** Jorge's resume reveals his job title, contact information, and work history. An attacker could use this to craft highly convincing phishing emails, either impersonating Jorge to target other employees or targeting Jorge himself with tailored lures.
+-   **Password Guessing & Pretexting:** The personal files (wedding plans, pet photos) provide clues that could be used to guess passwords or answer security questions. They also offer material for pretexting—creating a believable story to manipulate Jorge or his family.
+-   **USB Baiting Attack:** If the USB drive was intentionally left by a threat actor, its seemingly harmless contents would serve as a distraction. While the finder browses through the files, hidden malware could be silently installing in the background, establishing a foothold on the system and, potentially, the entire network.
+
+## 7. Risk Analysis and Mitigation Strategies
+
+The discovery of this USB drive highlights several critical security risks:
+
+-   **Malware Delivery:** USB drives are a primary vector for delivering malware. Had this device been plugged into a standard work computer, it could have deployed ransomware, keyloggers, or other malicious payloads.
+-   **Data Leakage:** The unencrypted personal and professional data on the drive constitutes a data leak, exposing sensitive information about an employee and the organization.
+
+To mitigate these risks, organizations should implement the following technical and administrative controls:
+-   **Disable Autorun/Autoplay:** Prevent devices from automatically executing files upon connection.
+-   **Endpoint Security:** Utilize antivirus and anti-malware software to scan all removable media.
+-   **User Training:** Educate employees about the dangers of USB baiting and the importance of not plugging unknown devices into their computers.
+-   **Policy Enforcement:** Establish clear policies for data handling, including the separation of personal and work files and the encryption of sensitive data on portable media.
+-   **Controlled Analysis:** As demonstrated in this exercise, all unknown devices should only be inspected by trained personnel in an isolated, virtualized environment.
+
+## 8. Conclusion and Key Learnings
+
+This exercise was a valuable demonstration of the "USB baiting" attack vector and the correct procedure for handling such an incident. Key takeaways include:
+
+-   **The Importance of Sandboxing:** I learned how to use virtualization software as a critical tool for safely analyzing potential threats without risking system integrity.
+-   **Adversarial Thinking:** I practiced thinking like an attacker to understand how seemingly innocuous files could be leveraged for malicious purposes.
+-   **Procedural Discipline:** The scenario reinforced the importance of following established security protocols instead of acting on curiosity.
+
+This activity directly supports the core competencies taught in the Google Cybersecurity Certificate, providing practical experience in threat identification, risk assessment, and incident response.
 
 ---
 
