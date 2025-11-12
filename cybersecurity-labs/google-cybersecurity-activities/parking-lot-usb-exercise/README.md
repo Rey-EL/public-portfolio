@@ -1,35 +1,32 @@
 # Parking lot USB exercise
 ________________________________________
 
-## Activity Overview: Understanding USB Baiting and Attack Vectors
+## Activity Overview
 
-This activity was a practical exploration of the cybersecurity issue known as **USB baiting**. USB baiting is a social engineering attack where malicious actors leave infected USB drives in public places, hoping individuals will plug them into their computers. The convenience of USB drives for data storage also makes them an effective method for delivering malware or gaining unauthorized control over systems. This exercise was designed to assess these attack vectors by examining a simulated scenario from both an attacker's and a defender's perspective. It highlighted how an organization's security can be compromised through human curiosity and the need for defensive strategies.
+In this activity, the goal was to assess the attack vectors of a USB drive. The exercise considered a scenario of finding a USB drive in a parking lot from both the perspective of an attacker and a target. USBs, or flash drives, are commonly used for storing and transporting data. However, some characteristics of these small, convenient devices can also introduce security risks. Threat actors frequently use USBs to deliver malicious software, damage other hardware, or even take control of devices. USB baiting is an attack in which a threat actor strategically leaves a malware USB stick for an employee to find and install to unknowingly infect a network. It relies on curious people to plug in an unfamiliar flash drive that they find.
 
 ## Scenario
 
-As part of the security team at Rhetorical Hospital, I found a USB stick with the hospital's logo on it in the parking lot. I brought the USB drive back to the office for safe analysis. To do this, I used virtualization software to create a **sandbox**, which is an isolated, simulated computer instance. This sandboxing technique is important because it allows for the investigation of a suspicious device without connecting it to the hospital's network or files, preventing potential malware from causing harm.
+As part of the security team at Rhetorical Hospital, I arrived at work one morning and found a USB stick with the hospital's logo printed on it. There was no one else around who might have dropped it, so I decided to pick it up out of curiosity. I brought the USB drive back to the office where the team had virtualization software installed on a workstation. Virtualization software can be used for this very purpose because it is one of the only ways to safely investigate an unfamiliar USB stick. The software works by running a simulated instance of the computer on the same workstation. This simulation is not connected to other files or networks, so the USB drive cannot affect other systems if it happens to be infected with malicious software.
 
 ## Contents
 
-The USB drive contained a mix of personal and work files, including family photos, a resume, employee shift schedules, and budget documents. These files contained Personally Identifiable Information (PII) such as contact details and work history, alongside sensitive work files like internal financial data. It is unsafe to store sensitive work files and personal files together on an unencrypted, portable device, as it increases the risk of a data breach that impacts both an individual's privacy and the organization's security.
+The USB drive belonged to Jorge Bailey, the human resource manager at Rhetorical Hospital, and contained a mix of personal and work-related files. These included family photos, pet pictures, a new hire letter, employee shift schedules, an employee budget, vacation ideas, wedding plans, and Jorge's resume. Many of these files contained Personally Identifiable Information (PII). Storing personal and sensitive work files together on such a device is unsafe.
 
 ## Attacker mindset
 
-An attacker could leverage the information on the drive in several ways. For example, they could launch a **spear-phishing** attack by using the resume to impersonate the employee, "Jorge," and email a colleague from a fake but similar address to request a sensitive file. Personal details from photos, like a pet's name, could be used to guess passwords for business systems (e.g., "Buddy123!"). An attacker could also use details from wedding plans to establish credibility in social engineering attempts, potentially manipulating individuals connected to Jorge into divulging sensitive data. The goal would be to use this initial access to infiltrate the hospital's network and steal valuable data.
+An attacker could have used the files on Jorge's USB drive as a distraction, potentially having staged the entire event. While an unsuspecting target browsed the files, the attacker could have established a backdoor into the company's systems. The sensitive information, including PII, could have been used to target Jorge or others around him, or to gain unauthorized access to the hospital's network.
 
 ## Risk analysis
 
-To mitigate these types of attacks, an organization can implement layered controls. Technical controls include disabling autorun on workstations and using endpoint security to scan all removable media for malicious software like ransomware or keyloggers. Managerial controls should include a clear policy that prohibits mixing personal and work data on unsecured devices and mandates encryption. Operationally, security awareness training is useful for teaching employees to report found devices and to understand that the only safe way to inspect them is within a controlled **sandbox** environment, preventing a network-wide infection.
+USB baiting attacks can deliver malicious software like malware, which could infect a computer if an employee plugged in an infected device. To mitigate these risks, organizations should implement controls such as disabling Autorun, using security software, and keeping personal and business USB drives separate. It is also crucial to use passwords and encryption on USB drives and to train employees not to plug unknown USB drives into their computers, instead reporting them to IT.
 
 ## Key Terms
 
-*   **USB Baiting:** The act of leaving an infected USB drive for someone to find and use, which then infects their computer.
-*   **Attack Vector:** A path or means by which an attacker can gain access to a computer or network.
-*   **Social Engineering:** The act of tricking people into giving up confidential information or taking a specific action.
-*   **Spear Phishing:** A targeted email scam sent to a specific person or organization, often containing personalized information to make it seem legitimate.
-*   **Sandboxing:** A security practice where a program or file is run in an isolated environment (a "sandbox") to see how it behaves without risking harm to the main system.
-*   **Personally Identifiable Information (PII):** Any data that could be used to identify a specific person, such as a name, address, or phone number.
-
-## Reflection
-
-This activity showed how USB baiting works and why it is a security risk. I learned how to safely inspect a USB drive using virtualization software, which created a **sandbox** to protect the system. I also saw how attackers might use the files to target people or systems. The exercise supported key lessons from the Google Cybersecurity Certificate, including how to protect data, recognize attack methods, and respond to real threats.
+*   **USB Baiting:** An attack where a threat actor strategically leaves a malware USB stick for an employee to find and install to unknowingly infect a network.
+*   **Attack Vectors:** The means by which an attacker can gain access to a computer or network.
+*   **Malware:** Malicious software that can infect computers.
+*   **PII (Personally Identifiable Information):** Sensitive information that can be used to target a data owner or others around them.
+*   **Virtualization Software:** Software used to safely investigate an unfamiliar USB stick by running a simulated instance of a computer.
+*   **Autorun:** A feature that causes removable media to open automatically when inserted.
+*   **Encryption:** A security feature used to protect data on a USB drive.
