@@ -68,7 +68,7 @@ Additional reports and analyses from practical lab exercises and study guides.
 | **[VMware Workstation and Kali Linux Setup (Windows Host)](./cybersecurity-labs/vmware-kali-setup/README.md)** | Documenting the installation of VMware Workstation Pro and deployment of a Kali Linux virtual machine on a Windows host.              | Virtualization, Windows, Linux, System Administration, Cybersecurity Lab Setup            |
 | **[CompTIA Security+ Study Guide](./cybersecurity-labs/sec-plus-guide/README.md)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
 | **[NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework. | Incident Analysis, NIST CSF, Network Security, Incident Response |
-| **[Alfunz-Core RAG System Build](./project-logs/alfunz-core-rag-system-build/README.md)** | A detailed log of building and troubleshooting a RAG system with Ollama and AnythingLLM. | LLM Deployment, RAG Architecture, Troubleshooting, Performance Optimization, System Governance |
+| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
 
 ---
 
@@ -91,4 +91,11 @@ This section provides an overview of my academic journey at ECPI University, hig
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contributing
-Contributions are welcome! If you have suggestions for improvements or want to enhance the report, please feel free to open an issue or submit a pull request.
+
+Contributions are welcome! If you have suggestions for new features, bug fixes, or additional CTF levels, please feel free to:
+
+1.  Fork the repository.
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'feat: Add amazing feature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
