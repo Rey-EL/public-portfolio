@@ -1,0 +1,3 @@
+[submodule "cyber-security-ctf-lab"]
+	path = cyber-security-ctf-lab
+	url = https://github.com/Rey-EL/cyber-security-ctf-lab.git
