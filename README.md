@@ -68,8 +68,8 @@ Additional reports and analyses from practical lab exercises and study guides.
 | **[VMware Workstation and Kali Linux Setup (Windows Host)](./cybersecurity-labs/vmware-kali-setup/README.md)** | Documenting the installation of VMware Workstation Pro and deployment of a Kali Linux virtual machine on a Windows host.              | Virtualization, Windows, Linux, System Administration, Cybersecurity Lab Setup            |
 | **[CompTIA Security+ Study Guide](./cybersecurity-labs/sec-plus-guide/README.md)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
 | **[NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework. | Incident Analysis, NIST CSF, Network Security, Incident Response |
-| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-
+| **[Alfunz-Core RAG System Build](./project-logs/alfunz-core-rag-system-build/README.md)** | A detailed log of building and troubleshooting a RAG system with Ollama and AnythingLLM. | LLM Deployment, RAG Architecture, Troubleshooting, Performance Optimization, System Governance |
+| **[Cyber Security CTF Lab](https://github.com/Rey-EL/cyber-security-ctf-lab)** | An interactive web-based terminal simulator for learning cybersecurity concepts through Capture The Flag (CTF) challenges, featuring enhanced narrative, ranks, and realistic terminal functionalities. | Web Development (HTML/CSS/JS), Cybersecurity Concepts, CTF Methodologies, Linux Commands, Gamification, UI/UX |
 ---
 
 ## ECPI University Coursework
