@@ -8,6 +8,7 @@ Welcome to my professional portfolio, a dynamic showcase of my expertise at the 
 
 *   [Key Skills](#key-skills)
 *   [Python Utility Scripts](#python-utility-scripts)
+*   [System Automation & Hardening](#system-automation--hardening)
 *   [Google Cybersecurity Certificate](#google-cybersecurity-certificate)
 *   [Other Cybersecurity & IT Labs](#other-cybersecurity--it-labs)
 *   [ECPI University Coursework](#ecpi-university-coursework)
@@ -45,6 +46,17 @@ This section features a series of standalone GUI applications built with Python,
 | **[media-tidy](./python-utilities/media-tidy/README.md)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
 | **[pdf-merger](./python-utilities/pdf-merger/README.md)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
 | **[ppt-to-pdf-converter](./python-utilities/ppt-to-pdf-converter/README.md)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
+| **[word-to-markdown-converter](./word-to-markdown-converter/README.md)** | A lightweight, secure desktop application to convert .docx files into clean Markdown. | Python, `tkinter`, `mammoth`, `markdownify`, GUI Development |
+
+---
+
+## System Automation & Hardening
+
+This section showcases projects focused on automating system administration tasks and hardening systems against common vulnerabilities.
+
+| Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
+| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| **[Self-Healing Ubuntu](./self-healing-ubuntu/README.md)** | A guide to creating a self-updating and self-maintaining Ubuntu system using cron, logrotate, and shell scripting. | Linux, System Hardening, Automation, `cron`, `logrotate`, Shell Scripting |
 
 ---
 
