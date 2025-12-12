@@ -1,6 +1,33 @@
 # Project Log: Alfunz-Core RAG System Build
 
-## Phase 1: Foundation and Initial Failure (The Speed vs. Intelligence Paradox)
+# Project Log: Alfunz-Core RAG System Build
+
+## Project Overview
+
+This project documents the end-to-end process of building and optimizing a private, local Retrieval-Augmented Generation (RAG) system named "Alfunz-Core." The goal was to create a high-speed, secure AI assistant that could reason over a private corpus of documents (hosted in GitHub) without relying on external cloud services. The log details the technical journey of architecture decisions, performance tuning, and systematic troubleshooting, culminating in a stable and efficient system optimized for consumer-grade hardware.
+
+---
+
+## Summary of Skills Demonstrated
+
+*   **AI System Architecture & Deployment:** Designing and deploying a full RAG pipeline, including the selection and native installation of an LLM service (Ollama) and a RAG framework (AnythingLLM) to maximize hardware performance.
+*   **RAG Implementation:** Configuring the system to ingest data securely from private GitHub repositories, creating a private and verifiable knowledge base for the AI.
+*   **Performance Tuning & Bottleneck Analysis:** Diagnosing and resolving critical performance issues, such as identifying a VRAM limitation as the root cause of high token latency and making strategic decisions to switch LLM sizes to balance speed and intelligence.
+*   **LLM Management:** Hands-on experience managing different sizes of Large Language Models (llama3:8b and llama3:70b), understanding their trade-offs, and configuring them for specific tasks (e.g., fast retrieval vs. complex reasoning).
+*   **System Governance & Prompt Engineering:** Implementing a comprehensive system prompt to act as a governance layer, controlling the AI's behavior, formatting, and adherence to predefined rules.
+*   **Cross-Platform Troubleshooting:** Resolving complex integration issues between Windows and WSL 2, such as file system notification failures, and pivoting to a more robust, cloud-native synchronization method.
+
+---
+
+## Security Context
+
+This project was designed with a "Privacy by Design" approach, ensuring that all AI processing and data storage remain within a local, controlled environment. By connecting the RAG system to private GitHub repositories via API keys and disabling external web search capabilities, the architecture prevents sensitive information from being exposed to third-party services. This setup mitigates risks associated with data privacy and ensures full control over the knowledge base.
+
+---
+
+## Detailed Project Log
+
+### Phase 1: Foundation and Initial Failure (The Speed vs. Intelligence Paradox)
 
 ### Initial Setup & Diagnostics:
 Initial architectural plans involved deploying the Ollama LLM service within the WSL 2 Ubuntu instance to maintain a Linux-centric workflow. However, a pre-deployment analysis identified a critical performance risk: potential bottlenecks in GPU resource allocation when accessed through the WSL virtualization layer. To mitigate this risk and guarantee maximum hardware acceleration, a strategic pivot was made. The Ollama service was deployed natively on the Windows 11 host (Alfunz), ensuring direct, low-level access to the NVIDIA RTX 4080's full capabilities. Resource verification via PowerShell confirmed the 16GB VRAM and 64GB System RAM, validating the foundational environment. The largest model, llama3:70b (bigllama), was then pulled and configured as the default LLM.

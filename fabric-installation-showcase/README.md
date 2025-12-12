@@ -1,10 +1,10 @@
 # Project Showcase: Installing and Troubleshooting the Fabric AI CLI
 
-## 1. Project Objective
+## Project Overview
 
 The primary goal of this project was to install, configure, and utilize the `fabric` command-line AI tool by Daniel Miessler. The specific, immediate objective was to replicate a workflow demonstrated in a tutorial: using `fabric` in conjunction with its `yt` helper command to extract a transcript from a YouTube video and process it with an AI pattern.
 
-## 2. The Challenge: A Multi-Layered Troubleshooting Journey
+## The Challenge: A Multi-Layered Troubleshooting Journey
 
 What began as a straightforward installation quickly evolved into a complex, multi-hour troubleshooting session. The initial `yt ... | fabric ...` command failed, triggering a cascade of errors that revealed issues with package management, environment paths, incorrect documentation, and conflicting software versions.
 
@@ -17,7 +17,9 @@ The journey involved diagnosing and overcoming the following distinct problems i
 6.  **The Official Installer's Incomplete Solution**: Using the correct official installer script (`.../fabric/main/scripts/installer/install.sh`) successfully installed the `fabric` command (v1.4.322), but the `yt` command was still missing.
 7.  **The Final Misdirection**: The `yt` helper tool was assumed to be a separate installation. However, its own installer script was defunct, returning a 404 error.
 
-## 3. Investigation and Resolution: The "Aha!" Moment
+---
+
+## Investigation and Resolution: The "Aha!" Moment
 
 After exhausting all installation paths for a separate `yt` command, the investigation pivoted to the `fabric` command itself. This was the breakthrough.
 
@@ -46,7 +48,9 @@ pipx install yt-dlp
 ```
 After clearing the shell cache (`rehash`), the `fabric` command was run one last time.
 
-## 4. Outcome and Verification
+---
+
+## Outcome and Verification
 
 The project concluded with a fully functional `fabric` installation and a correct understanding of its modern usage. The final command executed successfully, pulling the YouTube transcript and analyzing it as intended.
 
@@ -69,7 +73,7 @@ NetworkChuck explores Fabric, an open-source AI tool by Daniel Miessler designed
 ...
 ```
 
-## 5. Skills Demonstrated
+## Summary of Skills Demonstrated
 
 This project serves as a powerful showcase of advanced troubleshooting and technical problem-solving in a real-world scenario:
 
@@ -78,3 +82,9 @@ This project serves as a powerful showcase of advanced troubleshooting and techn
 -   **Tool and Dependency Management:** Demonstrating mastery of modern Python environment tools (`pipx`) and understanding the critical difference between a core application (`fabric`) and its runtime dependencies (`yt-dlp`).
 -   **Documentation Analysis (RTFM):** Proving the critical importance of reading the built-in help documentation (`fabric --help`), which ultimately provided the solution when all other avenues were exhausted.
 -   **Resilience and Persistence:** Methodically working through a frustrating, multi-hour process of dead ends and red herrings without giving up, leading to a complete and successful resolution.
+
+---
+
+## Security Context
+
+This project highlights the security implications of software installation and dependency management. The process of troubleshooting package names (`fabric` vs. `fabric-ai`) and installation methods (`pip` vs. `pipx` vs. official script) underscores the risk of supply chain attacks, where an attacker might publish a malicious package with a similar name. Verifying the official installation source and understanding the distinction between a core application and its dependencies (`yt-dlp`) are critical security practices to ensure that only legitimate and expected code is executed.
