@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Introduction
+## 1. Security Context
 
 In cybersecurity, one of the most critical vulnerabilities is the use of outdated software components (**OWASP Top 10: A06:2021**). Attackers frequently exploit systems that are merely days behind on security patches. Manually managing updates is tedious and prone to human error.
 
@@ -77,6 +77,19 @@ function backup-config() {
     echo "✅ Configuration backed up successfully!"
 }
 ```
+
+---
+
+## Summary of Skills Demonstrated
+
+*   **Linux System Administration:** Deep understanding of the Ubuntu package management system (`apt`), system services, and configuration file locations.
+*   **Automation & Scheduling:** Using `cron` to schedule tasks that run automatically at system boot, a core skill for reliable server management.
+*   **Shell Scripting (Zsh):** Writing robust shell commands, aliases, and functions to create efficient, reusable tools for system maintenance.
+*   **Log Management & Auditing:** Configuring `logrotate` to manage and archive log files, ensuring system observability without consuming excessive disk space.
+*   **Version Control for IaC:** Applying Infrastructure as Code (IaC) principles by using `git` to manage and backup critical system configurations (dotfiles).
+*   **Cybersecurity Principles:** Proactively addressing OWASP Top 10 vulnerabilities (A06:2021 - Vulnerable and Outdated Components) through automated patch management.
+
+---
 
 ## 3. Getting Started
 

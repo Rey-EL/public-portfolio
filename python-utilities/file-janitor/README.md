@@ -20,6 +20,17 @@ FileJanitor is a Python utility script designed to clean and organize folders by
 
 ---
 
+## Summary of Skills Demonstrated
+
+*   **Python Scripting:** Advanced scripting for file system navigation, comparison, and management.
+*   **GUI Development:** Using `tkinter` to create a simple and user-friendly graphical interface for folder selection.
+*   **File I/O and Hashing:** Reading files in binary mode and using the `hashlib` library to compute SHA-256 hashes for accurate content-based duplication checks.
+*   **OS-Level Operations:** Extensive use of the `os` and `shutil` libraries for directory traversal, file metadata analysis (modification time), and file/directory deletion.
+*   **User Interaction:** Designing a safe and interactive command-line experience with clear prompts and progress bars (`tqdm`).
+*   **Logging and Reporting:** Writing detailed log files to provide a clear audit trail of the script's actions.
+
+---
+
 ## Security Considerations
 
 FileJanitor is a local utility script and does not interact with networks or external services, which means it is not directly susceptible to many common web-based vulnerabilities like those in the OWASP Top 10. However, users should always:

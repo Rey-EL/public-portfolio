@@ -15,6 +15,17 @@ A simple and efficient Graphical User Interface (GUI) application built with Pyt
 
 ---
 
+## Summary of Skills Demonstrated
+
+*   **GUI Application Development:** Building a complete, user-friendly graphical application using Python's native `tkinter` library, including widgets, event handling, and layout management.
+*   **PDF Manipulation:** Using the `pypdf` library to open, read, and merge multiple PDF files into a single document.
+*   **File System Interaction:** Integrating with the operating system's file dialogs (`tkinter.filedialog`) to allow users to intuitively select folders and choose save locations.
+*   **OS-Level Operations:** Using the `os` module for recursive directory traversal to discover all relevant PDF files.
+*   **Robust Programming:** Implementing error handling to gracefully manage potential issues like corrupted or unreadable PDF files without crashing.
+*   **Application Packaging:** Knowledge of how to use `PyInstaller` to bundle a Python application into a standalone executable for easy distribution.
+
+---
+
 ## Security Considerations
 
 PDF Merger is a local utility script and does not interact with networks or external services, which means it is not directly susceptible to many common web-based vulnerabilities like those in the OWASP Top 10. However, users should always:

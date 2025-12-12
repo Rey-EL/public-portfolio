@@ -25,6 +25,18 @@ A lightweight, secure desktop application for Windows 11 that converts Microsoft
   + [markdownify](https://github.com/matthewwithanm/python-markdownify): For converting HTML to Markdown.
 * **Distribution:** PyInstaller (for building the standalone .exe).
 
+---
+
+## Summary of Skills Demonstrated
+
+*   **GUI Application Development:** Building a complete graphical application using Python's native `tkinter` library.
+*   **Third-Party Library Integration:** Effectively using external libraries (`mammoth`, `markdownify`) to perform complex file format conversions.
+*   **Secure by Design:** Implementing input validation to only accept `.docx` files and ensuring all processing is done locally to protect user privacy.
+*   **File System Interaction:** Integrating with the operating system's file dialogs to allow users to select input files and define output locations.
+*   **Application Packaging:** Knowledge of how to use `PyInstaller` to bundle the application into a standalone executable for easy distribution on Windows.
+
+---
+
 ## 📦 Installation & Setup
 
 ### Prerequisites

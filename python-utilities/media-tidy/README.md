@@ -17,6 +17,17 @@ MediaTidy is a Python utility script that brings order to chaotic photo and vide
 
 ---
 
+## Summary of Skills Demonstrated
+
+*   **Python Scripting:** Advanced scripting for file system navigation, renaming, and organization.
+*   **Metadata Handling:** Using the `Pillow` library to extract EXIF metadata from image files to determine the original "Date Taken".
+*   **GUI Development:** Integrating `tkinter` to create a simple and user-friendly graphical interface for folder selection.
+*   **OS-Level Operations:** Extensive use of the `os` and `shutil` libraries for directory traversal, file renaming, moving files, and deleting empty directories.
+*   **User Interaction:** Providing clear terminal feedback and a progress bar (`tqdm`).
+*   **Application Packaging:** Knowledge of how to use `PyInstaller` to bundle a Python script and its dependencies into a standalone executable for distribution.
+
+---
+
 ## Security Considerations
 
 MediaTidy is a local utility script and does not interact with networks or external services, which means it is not directly susceptible to many common web-based vulnerabilities like those in the OWASP Top 10. However, users should always:

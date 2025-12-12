@@ -21,6 +21,17 @@ This is a **Windows-only** application and requires **Microsoft PowerPoint** to 
 
 ---
 
+## Summary of Skills Demonstrated
+
+*   **GUI Application Development:** Building a complete graphical application using `tkinter`, including real-time progress updates and status messages.
+*   **Windows COM Automation:** Using the `win32com` library to programmatically control a third-party desktop application (Microsoft PowerPoint), a powerful technique for automation on Windows.
+*   **PDF Manipulation:** Leveraging the `pypdf` library to merge multiple PDF documents into a single, consolidated file.
+*   **OS-Level Operations:** Using the `os` module for recursive directory traversal and the `tempfile` module for safely creating and cleaning up temporary directories.
+*   **Robust Programming:** Implementing clear error handling and user feedback mechanisms to manage a multi-step conversion and merging process.
+*   **Application Packaging:** Knowledge of how to use `PyInstaller` to bundle the application into a standalone executable for distribution on Windows.
+
+---
+
 ## Security Considerations
 
 This application is a local utility and does not interact with networks or external services, which means it is not directly susceptible to many common web-based vulnerabilities like those in the OWASP Top 10. However, users should always:
