@@ -26,11 +26,11 @@ My portfolio demonstrates a comprehensive skill set in cybersecurity and IT, bui
 
 *   **Cybersecurity Analysis & Incident Response:** I apply industry-standard frameworks like the NIST Cybersecurity Framework to analyze security incidents, assess vulnerabilities, and perform risk analysis. My work includes creating formal incident reports (DDoS analysis), conducting vulnerability assessments (NIST SP 800-30), and analyzing security scenarios like data leaks and USB baiting.
 
-*   **Python for Automation & Security:** I develop custom Python scripts and GUI applications (`tkinter`) to automate tasks and solve security-related problems. My projects demonstrate skills in file manipulation, SHA-256 hashing for integrity, metadata handling (`Pillow`), PDF manipulation (`pypdf`), and interfacing with Windows COM objects (`win32com`).
+*   **Python for Automation & Security:** I develop custom Python scripts and standalone GUI applications (`tkinter`) to automate tasks and solve security-related problems. My projects demonstrate skills in file manipulation, data conversion (e.g., DOCX to Markdown), SHA-256 hashing for integrity, metadata handling (`Pillow`), PDF manipulation (`pypdf`), and interfacing with Windows COM objects (`win32com`).
 
 *   **AI & Machine Learning Operations:** I have practical experience in deploying and troubleshooting modern AI systems. This includes installing and configuring AI-driven CLIs (Fabric) and building and managing local Retrieval-Augmented Generation (RAG) systems using technologies like Ollama and AnythingLLM.
 
-*   **System & Network Administration:** I am proficient in both Linux and Windows environments, including system hardening, user management (`chmod`, least privilege), and network services (DHCP, DNS). My experience extends to network design and troubleshooting (Packet Tracer) and setting up virtualized lab environments (VMware, Kali Linux) for security testing.
+*   **System & Network Administration:** I am proficient in both Linux and Windows environments. My skills include system hardening, process automation (`cron`, `logrotate`), shell scripting (Zsh), user management (`chmod`, least privilege), and network services (DHCP, DNS). My experience extends to network design (Packet Tracer) and setting up virtualized lab environments (VMware, Kali Linux) for security testing.
 
 *   **Security Tools & Frameworks:** I am adept at using a variety of security tools and concepts. This includes SQL for security investigations, access control principles, and understanding of core security frameworks (NIST, OWASP). My work reflects a deep understanding of both offensive and defensive security mindsets.
 
