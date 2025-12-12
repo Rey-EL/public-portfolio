@@ -1,16 +1,18 @@
-# linux-least-privilege-lab
+# Linux File Permission Hardening
 
-This project demonstrates a hands-on audit and remediation of file permissions in a Linux environment to enforce the Principle of Least Privilege. This was a lab exercise from the Google Cybersecurity Certificate program.
+## Project Overview
 
----
-
-## Objective
-
-To perform a security audit on a user's project directory, identify file and directory permissions that violate security policy, and use `chmod` to apply the correct permissions.
+This project from the Google Cybersecurity Certificate program demonstrates the process of auditing and remediating file permissions in a Linux environment to enforce the Principle of Least Privilege.
 
 ---
 
-## 1. Vulnerability Assessment
+## Scenario
+
+As a security analyst, you are tasked with performing a security audit on a user's project directory. The audit reveals several permission misconfigurations that violate security policy, such as world-writable files and directories with excessive group permissions. Your goal is to identify these issues and apply the correct permissions using `chmod`.
+
+---
+
+## Vulnerability Assessment
 
 The first step was to assess the security posture of the `/home/researcher2/projects` directory. Using `ls -la`, I identified several permission misconfigurations.
 
@@ -19,7 +21,7 @@ The first step was to assess the security posture of the `/home/researcher2/proj
 *   **Insecure Hidden File:** `.project_x.txt` had write permissions (`-rw--w----`) when policy required it to be read-only.
 *   **Excessive Directory Permissions:** The `drafts/` directory (`drwx--x---`) improperly granted group members execute access, allowing them to traverse the directory.
 
-## 2. Permission Hardening (Remediation)
+## Permission Hardening (Remediation)
 
 I addressed each finding systematically using the `chmod` command to harden the permissions.
 
@@ -33,24 +35,24 @@ chmod o-w /home/researcher2/projects/project_k.txt
 #### Hardening the Hidden Archive
 Set the file to be read-only for the user and group, and assigned no permissions for "other".
 ```bash
-chmod 440 /home/researcher2/projects/.project_x.txt
+chmod 440 /home/rey-el/Public_Portfolio/cybersecurity-labs/linux-least-privilege-lab/.project_x.txt
 # New Permissions: -r--r-----
 ```
 
 #### Securing the Directory
 Restricted access to the `drafts/` directory to be accessible only by the owner.
 ```bash
-chmod 700 /home/researcher2/projects/drafts
+chmod 700 /home/rey-el/Public_Portfolio/cybersecurity-labs/linux-least-privilege-lab/drafts
 # New Permissions: drwx------
 ```
 
-## 3. Final Result
+## Final Result
 
 After applying the changes, a final `ls -la` verification confirmed that all permissions now adhere to the principle of least privilege. The identified access control risks were successfully mitigated, securing the project directory from unauthorized access and modification.
 
 ---
 
-## Summary of Skills
+## Summary of Skills Demonstrated
 
 This lab demonstrates proficiency in fundamental Linux security administration:
 *   **File System Auditing:** Using `ls -la` to inspect and analyze file and directory permissions.

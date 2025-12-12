@@ -1,16 +1,18 @@
-# google-sql-filtering-lab
+# SQL Filtering for Security Investigations
 
-This project showcases my ability to use SQL for cybersecurity investigations, a hands-on lab from the Google Cybersecurity Certificate program. The goal was to query a simulated employee database to identify security events and support system administration tasks.
+## Project Overview
 
----
-
-## Objective
-
-To investigate potential security incidents by writing SQL queries to filter a database of employee records and login attempts. This involved using `AND`, `OR`, and `NOT` operators to isolate specific data points relevant to a security analyst.
+This project from the Google Cybersecurity Certificate program demonstrates the use of SQL for security investigations. The exercise involves analyzing a scenario that requires querying a database of employee records and login attempts to identify and isolate security-relevant events.
 
 ---
 
-## Demonstrated SQL Techniques
+## Scenario
+
+As a security analyst, you need to investigate several potential security incidents and support system administration tasks by querying a database. The tasks include identifying failed login attempts after business hours, reviewing login activity around a specific date, and generating lists of employees based on department and location for targeted updates.
+
+---
+
+## Implementation Details
 
 Below are examples of the queries written during the lab, demonstrating different filtering techniques.
 
@@ -58,7 +60,7 @@ SELECT * FROM employees WHERE NOT department = 'Information Technology';
 
 ---
 
-## Summary of Skills
+## Summary of Skills Demonstrated
 
 This lab provided practical experience in using fundamental SQL `WHERE` clauses to support cybersecurity functions. The key skills demonstrated include:
 *   **Threat Hunting:** Isolating suspicious login patterns based on time, date, and location.
