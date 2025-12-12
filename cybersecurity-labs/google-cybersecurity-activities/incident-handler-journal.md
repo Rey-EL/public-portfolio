@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This journal entry documents a simulated ransomware attack on a small U.S. healthcare clinic, initiated by a phishing email. It serves as a practical exercise in applying foundational incident response procedures, specifically focusing on documenting and analyzing a security event using the "5 W's" framework.
+This project is a practical exercise in applying foundational incident response procedures. It documents a simulated ransomware attack on a small U.S. healthcare clinic, initiated by a phishing email. The full journal entry, structured using the "5 W's" framework, is detailed below.
 
 ---
 
@@ -12,7 +12,7 @@ A small U.S. healthcare clinic was hit by a ransomware attack initiated by a phi
 
 ---
 
-## Methodology / Process
+## The Incident Journal Entry
 
 ### Incident Details
 | | |
