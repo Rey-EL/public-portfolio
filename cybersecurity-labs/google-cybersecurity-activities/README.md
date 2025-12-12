@@ -36,11 +36,6 @@ The purpose of this portfolio is to demonstrate the practical application of cyb
     *   **Task:** Analyzed the event log to identify the authorization issue. The analysis revealed that the user's account was never deactivated and still retained full 'Admin' privileges, uncovering a systemic failure in off-boarding and access control.
     *   **Outcome:** The analysis resulted in a clear remediation plan recommending: 1) A formal off-boarding process, 2) The implementation of Role-Based Access Control (RBAC), and 3) Regular user access reviews. This demonstrates the ability to diagnose security failures from logs and prescribe specific, effective controls.
 
-*   **[Data Leak Incident Analysis](./completed-data-leak-worksheet.md)**
-    *   **Scenario:** A sales manager shared a folder of internal-only documents with their team. The manager did not revoke access, and a team member later accidentally shared the folder with a business partner, who posted it on social media.
-    *   **Task:** Performed a post-mortem analysis of the simulated data leak. The analysis traced the incident to its root causes (failure to revoke access, lack of link verification) and framed the issue using the NIST Cybersecurity Framework, referencing NIST SP 800-53: AC-6 (Least Privilege).
-    *   **Outcome:** The analysis resulted in recommendations for two key controls: automatically revoking access after a set period and implementing strict role-based access controls (RBAC). This demonstrates the ability to deconstruct a security incident and propose targeted, preventative controls based on a recognized framework.
-
 *   **[Ransomware Incident Handler's Journal](./incident-handler-journal.md)**
     *   **Scenario:** A small U.S. healthcare clinic was hit by a ransomware attack initiated by a phishing email. The attack encrypted critical files, including medical records, and led to a complete shutdown of business operations.
     *   **Task:** Documented and analyzed the simulated ransomware attack using the "5 W's" framework. The analysis identified the attack vector, detailed the impact, and attributed the event to a known threat actor.
