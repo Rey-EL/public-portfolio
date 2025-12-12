@@ -38,6 +38,22 @@ This activity highlighted the importance of understanding attack vectors related
 
 ---
 
+## Summary of Skills Demonstrated
+
+*   **Threat Vector Analysis:** Identifying and analyzing the potential attack vectors associated with removable media, including malware delivery and social engineering.
+*   **Social Engineering Awareness:** Understanding the tactics used in USB baiting attacks and the psychological principles they exploit.
+*   **Secure Handling Procedures:** Outlining the correct, safe procedure for inspecting unknown media using a sandboxed environment to prevent system compromise.
+*   **Risk Analysis:** Assessing the risks associated with the exposure of Personally Identifiable Information (PII) found on the device.
+*   **Policy and Training Recommendation:** Articulating the need for organizational policies and employee training to mitigate the risks of such attacks.
+
+---
+
+## Security Context
+
+This exercise directly addresses the human element of cybersecurity. USB baiting is a classic social engineering attack that preys on curiosity to introduce malware into a secure network. The analysis demonstrates an understanding of how physical and digital security are intertwined. The recommendation to use sandboxing for analysis is a key security practice to prevent malware from infecting a host system, directly mitigating a major attack vector and protecting the organization from threats that could lead to data breaches or ransomware events.
+
+---
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
