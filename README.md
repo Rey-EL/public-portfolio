@@ -11,6 +11,7 @@ Welcome to my professional portfolio, a dynamic showcase of my expertise at the 
 *   [System Automation & Hardening](#system-automation--hardening)
 *   [Google Cybersecurity Certificate](#google-cybersecurity-certificate)
 *   [Other Cybersecurity & IT Labs](#other-cybersecurity--it-labs)
+*   [Completed Coursework](#completed-coursework)
 *   [ECPI University Coursework](#ecpi-university-coursework)
 *   [Connect with Me](#connect-with-me)
 *   [License](#license)
@@ -82,6 +83,15 @@ Additional reports and analyses from practical lab exercises and study guides.
 | **[NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework. | Incident Analysis, NIST CSF, Network Security, Incident Response |
 | **[Alfunz-Core RAG System Build](./project-logs/alfunz-core-rag-system-build/README.md)** | A detailed log of building and troubleshooting a RAG system with Ollama and AnythingLLM. | LLM Deployment, RAG Architecture, Troubleshooting, Performance Optimization, System Governance |
 | **[Cyber Security CTF Lab](https://github.com/Rey-EL/cyber-security-ctf-lab)** | An interactive web-based terminal simulator for learning cybersecurity concepts through Capture The Flag (CTF) challenges, featuring enhanced narrative, ranks, and realistic terminal functionalities. | Web Development (HTML/CSS/JS), Cybersecurity Concepts, CTF Methodologies, Linux Commands, Gamification, UI/UX |
+
+---
+
+## Completed Coursework
+
+This section contains completed exercises, worksheets, and smaller assignments from various training programs. These items are distinct from the full-scale projects found in the main portfolio section but demonstrate foundational skills in key cybersecurity domains.
+
+*   **[View Completed Coursework](./completed-course-work/README.md)**
+
 ---
 
 ## ECPI University Coursework
