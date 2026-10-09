@@ -1,66 +1,50 @@
-# sec-plus-guide
+# Security+ Study Guide (SY0-701)
 
-This repository contains a comprehensive study guide for the CompTIA Security+ (SY0-701) certification exam. The guide is organized by the official exam domains and breaks down each topic using the "5 W's and H" (Who, What, Where, When, Why, How) format for a thorough understanding.
+I am working through the CompTIA Security+ exam and writing up each topic as I go. Every domain page breaks topics down with the 5 W's and H: who, what, where, when, why, and how. Writing it out is how I make it stick.
 
-This guide is a work in progress.
+This guide is a work in progress. I update it as I study.
 
----
-
-## Table of Contents
-
-### Official Exam Domains
+## The five domains
 
 *   **[Domain 1: General Security Concepts (12%)](./domain-1-research.md)**
-    *   Security Controls
-    *   Fundamental Concepts (CIA, AAA, Zero Trust)
-    *   Change Management
-    *   Cryptographic Solutions
+    *   Security controls
+    *   Fundamental concepts (CIA, AAA, Zero Trust)
+    *   Change management
+    *   Cryptographic solutions
 
 *   **[Domain 2: Threats, Vulnerabilities, and Mitigations (22%)](./domain-2-research.md)**
-    *   Threat Actors and Motivations
-    *   Threat Vectors and Attack Surfaces
+    *   Threat actors and motivations
+    *   Threat vectors and attack surfaces
     *   Vulnerabilities
-    *   Malicious Activity Analysis
-    *   Mitigation Techniques
+    *   Malicious activity analysis
+    *   Mitigation techniques
 
 *   **[Domain 3: Security Architecture (18%)](./domain-3-research.md)**
-    *   Architecture Models (Cloud, IoT, ICS)
-    *   Enterprise Infrastructure Security
-    *   Data Protection
-    *   Resilience and Recovery
+    *   Architecture models (cloud, IoT, ICS)
+    *   Enterprise infrastructure security
+    *   Data protection
+    *   Resilience and recovery
 
 *   **[Domain 4: Security Operations (28%)](./domain-4-research.md)**
-    *   Secure Baselines and Hardening
-    *   Asset Management
-    *   Vulnerability Management
-    *   Monitoring and Alerting
-    *   Identity and Access Management (IAM)
-    *   Incident Response (IR)
+    *   Secure baselines and hardening
+    *   Asset management
+    *   Vulnerability management
+    *   Monitoring and alerting
+    *   Identity and access management (IAM)
+    *   Incident response (IR)
 
 *   **[Domain 5: Security Program Management and Oversight (20%)](./domain-5-research.md)**
-    *   Security Governance
-    *   Risk Management
-    *   Third-Party Risk
-    *   Security Compliance
-    *   Audits and Assessments
-    *   Security Awareness Training
+    *   Security governance
+    *   Risk management
+    *   Third-party risk
+    *   Security compliance
+    *   Audits and assessments
+    *   Security awareness training
 
+## How I am studying
 
-
----
-
-## Security Context
-
-The CompTIA Security+ certification covers a broad range of cybersecurity fundamentals, many of which directly address the principles and practices necessary to mitigate vulnerabilities outlined in the OWASP Top 10. Topics such as threat analysis, vulnerability management, secure architecture, access control, and security operations are all crucial for developing secure applications and systems, thereby protecting against common and critical web application security risks.
-
----
+My study plan, schedule approach, and the full topic checklist live in the [project charter](./project-charter.md).
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE.md) - see the LICENSE.md file for details.
-
----
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements, bug reports, or want to contribute to the study guide, please feel free to open an issue or submit a pull request.
+MIT License. See [LICENSE.md](./LICENSE.md) for details.
