@@ -79,7 +79,7 @@ An **attack surface** refers to the sum of all possible points, pathways, or met
 
 ### 3. Social Engineering
 
-*   **Who:** Threat actors who meticulously research their targets to understand their behaviors and vulnerabilities.
+*   **Who:** Threat actors who carefully research their targets to understand their behaviors and vulnerabilities.
 *   **What:** Social engineering is the psychological manipulation of individuals into performing actions or divulging confidential information, often by exploiting human emotions like trust, fear, or urgency.
 *   **Where:** These attacks can occur through a wide range of mediums, including email, phone calls, SMS messages, social media platforms, and even direct in-person interactions.
 *   **When:** Social engineering is a consistently effective and common attack vector, frequently targeting new employees or individuals with access to sensitive data.
@@ -296,7 +296,7 @@ Mitigation techniques are strategies and controls implemented to reduce the like
 
 *   **What:** Patching is the process of applying updates to software, operating systems, and firmware to fix known vulnerabilities, bugs, and improve performance or add new features.
 *   **Why:** To eliminate known security flaws that attackers could exploit, thereby preventing successful attacks, maintaining system stability, and ensuring compliance with security policies.
-*   **How:** Involves establishing a robust patch management process, using automated patch management systems, regularly monitoring vendor security advisories, and applying updates after appropriate testing.
+*   **How:** Involves establishing a solid patch management process, using automated patch management systems, regularly monitoring vendor security advisories, and applying updates after appropriate testing.
 *   **Who:** System administrators, IT operations teams, and security teams.
 *   **Where:** Applied to all software applications, operating systems (Windows, Linux, macOS), firmware on hardware devices, and network equipment.
 *   **When:** Regularly and promptly, as soon as patches are released by vendors and have undergone internal testing, often during scheduled maintenance windows.
