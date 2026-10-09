@@ -66,7 +66,7 @@
 *   **Endpoint Protection:** Hardening individual IoT devices.
 *   **Gateway Security:** Implementing security at the network edge.
 *   **Secure Cloud API:** Protecting communication interfaces.
-*   **Secure Network Design:** Robust access controls, firewalls, and monitoring.
+*   **Secure Network Design:** Strong access controls, firewalls, and monitoring.
 *   **Data Encryption:** Encrypting data in transit and at rest.
 *   **Protected Data Storage:** Secure storage of IoT-generated data.
 *   **Secure Boot and Firmware Validation:** Ensuring only authorized firmware can execute.
@@ -111,7 +111,7 @@
 
 *   **Implement Secure Coding Practices:** Avoid hardcoding secrets and apply the principle of least privilege.
 *   **Automate Security Scanning and Policy Enforcement:** Integrate static analysis tools into CI/CD pipelines.
-*   **Leverage Version Control and Change Management:** Track all changes and implement peer review workflows.
+*   **Use version control and Change Management:** Track all changes and implement peer review workflows.
 *   **Implement Continuous Monitoring and Auditing:** Detect configuration drift and unauthorized changes.
 *   **Ensure Infrastructure Immutability:** Treat infrastructure as immutable once provisioned.
 *   **Manage Dependencies Securely:** Regularly update and patch all components.
@@ -206,7 +206,7 @@
 *   **Warm Sites:** Contain some hardware, software, and communication equipment, but may require additional setup.
 *   **Hot Sites:** Fully equipped, functional replicas of the primary site, allowing for near-instant failover.
 *   **Mobile Sites:** Trailers that can be deployed to specific locations.
-*   **Cloud-based Recovery Sites (DRaaS):** Leverage cloud infrastructure to minimize the need for physical data centers.
+*   **Cloud-based Recovery Sites (DRaaS):** Use cloud infrastructure to minimize the need for physical data centers.
 
 ### Disaster Recovery Testing Types
 
@@ -225,7 +225,7 @@
 *   **Regular Testing:** Regularly test backups to verify their integrity and functionality.
 *   **Diverse Backup Types:** Utilize a combination of full, incremental, and differential backups.
 *   **Hybrid Solutions:** Employ a mix of cloud and local backup solutions.
-*   **Security Measures:** Encrypt backup data and implement robust access controls.
+*   **Security Measures:** Encrypt backup data and implement strong access controls.
 *   **Data Prioritization:** Identify and prioritize critical data for backup.
 *   **Automation:** Implement automated backup solutions.
 *   **Comprehensive Documentation:** Maintain detailed records of all backup procedures.
