@@ -1,114 +1,63 @@
-# Elvis Reyes - Cybersecurity & Python Portfolio
+# Elvis Reyes — Cybersecurity and Python Portfolio
 
-Welcome to my professional portfolio, a dynamic showcase of my expertise at the intersection of cybersecurity, IT administration, and Python development. This repository is meticulously curated to demonstrate practical skills through real-world problem-solving and the application of industry-standard frameworks. Explore my projects to see how I leverage technology to build secure, efficient, and innovative solutions.
+I am a career investigator working at the intersection of investigations and cybersecurity. This is where I keep my hands-on work: Python tools I built, security labs I completed, and study notes I wrote while learning.
 
----
+## What I can do
 
-## Table of Contents
+**Incident response and analysis.** I work with the NIST Cybersecurity Framework to analyze incidents, assess vulnerabilities, and write formal reports. Examples here include a DDoS incident report and a vulnerability assessment done to NIST SP 800-30.
 
-*   [Key Skills](#key-skills)
-*   [Python Utility Scripts](#python-utility-scripts)
-*   [System Automation & Hardening](#system-automation--hardening)
-*   [Google Cybersecurity Certificate](#google-cybersecurity-certificate)
-*   [Other Cybersecurity & IT Labs](#other-cybersecurity--it-labs)
-*   [ECPI University Coursework](#ecpi-university-coursework)
-*   [Connect with Me](#connect-with-me)
-*   [License](#license)
-*   [Contributing](#contributing)
+**Python.** I build small GUI applications with `tkinter` to automate real tasks: finding duplicate files, organizing photo libraries by EXIF data, merging PDFs, converting PowerPoint decks. I work with `pypdf`, `Pillow`, `win32com`, and SHA-256 hashing.
 
----
+**Linux and Windows administration.** Permissions and least privilege, system hardening, `cron` automation, shell scripting, and virtualized lab setups with Kali Linux.
 
-## Key Skills
+**Security fundamentals.** SQL for investigations, access control, and the core frameworks (NIST, OWASP). I am currently studying for the CompTIA Security+ (SY0-701).
 
-My portfolio demonstrates a comprehensive skill set in cybersecurity and IT, built on a foundation of hands-on projects and practical application. I specialize in bridging the gap between security theory and real-world implementation.
+**AI systems.** I have deployed and troubleshot local LLM setups, including RAG systems built with Ollama and AnythingLLM.
 
-**My core proficiencies include:**
+## Python utilities
 
-*   **Cybersecurity Analysis & Incident Response:** I apply industry-standard frameworks like the NIST Cybersecurity Framework to analyze security incidents, assess vulnerabilities, and perform risk analysis. My work includes creating formal incident reports (DDoS analysis), conducting vulnerability assessments (NIST SP 800-30), and analyzing security scenarios like data leaks and USB baiting.
+| Project | What it does | Built with |
+| :------ | :----------- | :--------- |
+| [file-janitor](./python-utilities/file-janitor/README.md) | Finds duplicate files by content hash and cleans out empty folders. Asks before deleting anything. | Python, `tkinter`, SHA-256 |
+| [media-tidy](./python-utilities/media-tidy/README.md) | Sorts photo and video libraries into dated folders using EXIF data. | Python, `Pillow`, `tkinter` |
+| [pdf-merger](./python-utilities/pdf-merger/README.md) | Merges every PDF in a folder tree into one document. Skips corrupt files instead of crashing. | Python, `pypdf`, `tkinter` |
+| [ppt-to-pdf-converter](./python-utilities/ppt-to-pdf-converter/README.md) | Converts PowerPoint files to PDF and merges them. Windows only, uses PowerPoint itself for the conversion. | Python, `win32com`, `pypdf` |
+| [word-to-markdown-converter](./word-to-markdown-converter/README.md) | Turns .docx files into clean Markdown. | Python, `tkinter`, `mammoth` |
 
-*   **Python for Automation & Security:** I develop custom Python scripts and standalone GUI applications (`tkinter`) to automate tasks and solve security-related problems. My projects demonstrate skills in file manipulation, data conversion (e.g., DOCX to Markdown), SHA-256 hashing for integrity, metadata handling (`Pillow`), PDF manipulation (`pypdf`), and interfacing with Windows COM objects (`win32com`).
+## System administration
 
-*   **AI & Machine Learning Operations:** I have practical experience in deploying and troubleshooting modern AI systems. This includes installing and configuring AI-driven CLIs (Fabric) and building and managing local Retrieval-Augmented Generation (RAG) systems using technologies like Ollama and AnythingLLM.
-
-*   **System & Network Administration:** I am proficient in both Linux and Windows environments. My skills include system hardening, process automation (`cron`, `logrotate`), shell scripting (Zsh), user management (`chmod`, least privilege), and network services (DHCP, DNS). My experience extends to network design (Packet Tracer) and setting up virtualized lab environments (VMware, Kali Linux) for security testing.
-
-*   **Security Tools & Frameworks:** I am adept at using a variety of security tools and concepts. This includes SQL for security investigations, access control principles, and understanding of core security frameworks (NIST, OWASP). My work reflects a deep understanding of both offensive and defensive security mindsets.
-
----
-
-## Python Utility Scripts
-
-This section features a series of standalone GUI applications built with Python, designed to automate and streamline common tasks.
-
-| Project                                       | Description                                                                                             | Skills Demonstrated                                       |
-| :-------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------- |
-| **[file-janitor](./python-utilities/file-janitor/README.md)**           | A tool to clean and organize folders by finding and removing duplicate files and empty directories.       | Python, `tkinter`, SHA-256 Hashing, File I/O              |
-| **[media-tidy](./python-utilities/media-tidy/README.md)**               | A script to organize photo and video libraries by renaming files based on EXIF data.                      | Python, `Pillow`, `tkinter`, Metadata Handling            |
-| **[pdf-merger](./python-utilities/pdf-merger/README.md)**               | A GUI application to merge multiple PDF files into a single document.                                     | Python, `pypdf`, `tkinter`, GUI Development               |
-| **[ppt-to-pdf-converter](./python-utilities/ppt-to-pdf-converter/README.md)** | A Windows-only script to convert and merge PowerPoint presentations into a single PDF.                  | Python, `win32com`, `pypdf`, `tkinter`, COM Automation    |
-| **[word-to-markdown-converter](./word-to-markdown-converter/README.md)** | A lightweight, secure desktop application to convert .docx files into clean Markdown. | Python, `tkinter`, `mammoth`, `markdownify`, GUI Development |
-
----
-
-## System Automation & Hardening
-
-This section showcases projects focused on automating system administration tasks and hardening systems against common vulnerabilities.
-
-| Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
-| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Self-Healing Ubuntu](./self-healing-ubuntu/README.md)** | A guide to creating a self-updating and self-maintaining Ubuntu system using cron, logrotate, and shell scripting. | Linux, System Hardening, Automation, `cron`, `logrotate`, Shell Scripting |
-
----
+| Project | What it does | Built with |
+| :------ | :----------- | :--------- |
+| [Self-Healing Ubuntu](./self-healing-ubuntu/README.md) | A guide to a self-updating Ubuntu setup using cron, logrotate, and shell scripting. | Linux, `cron`, shell |
 
 ## Google Cybersecurity Certificate
 
-This section highlights hands-on projects and analyses completed as part of the Google Cybersecurity Certificate program, showcasing practical application of cybersecurity principles.
+Labs and scenario exercises from the certificate program.
 
-| Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
-| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Google Cybersecurity Certificate Activities](./cybersecurity-labs/google-cybersecurity-activities/README.md)** | A collection of scenario-based activities from the Google Cybersecurity Certificate, including a vulnerability assessment, an analysis of a data leak, a SQL filtering lab for security investigations, a Linux least privilege lab, and a USB baiting exercise. | Vulnerability Assessment, NIST SP 800-30, Risk Analysis, Incident Analysis, NIST SP 800-53, Access Control (Least Privilege), SQL, Threat Hunting, Data Auditing, Linux, `chmod`, File System Auditing, USB Security |
+| Project | What it does | Covers |
+| :------ | :----------- | :----- |
+| [Certificate activities](./cybersecurity-labs/google-cybersecurity-activities/README.md) | Vulnerability assessment, data leak analysis, SQL filtering lab, Linux permissions lab, USB baiting exercise. | NIST SP 800-30, risk analysis, SQL, `chmod`, access control |
 
----
+## Other labs and projects
 
-## Other Cybersecurity & IT Labs
+| Project | What it does | Covers |
+| :------ | :----------- | :----- |
+| [NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md) | Formal incident report on a DDoS scenario, structured on the five NIST CSF functions. | Incident analysis, NIST CSF, response and recovery |
+| [CompTIA Security+ Study Guide](./cybersecurity-labs/sec-plus-guide/README.md) | My study notes for the SY0-701 exam, one page per domain. | All five exam domains |
+| [VMware and Kali Setup](./cybersecurity-labs/vmware-kali-setup/README.md) | How I set up VMware Workstation Pro with a Kali Linux VM on a Windows host. | Virtualization, lab setup |
+| [Fabric AI CLI Install](./fabric-installation-showcase/README.md) | Notes from installing and troubleshooting the Fabric AI CLI. | Debugging, CLI work |
+| [RAG System Build Log](./project-logs/alfunz-core-rag-system-build/README.md) | A build log for a local RAG system with Ollama and AnythingLLM. | LLM deployment, RAG, troubleshooting |
+| [Cyber Security CTF Lab](https://github.com/Rey-EL/cyber-security-ctf-lab) | A Capture The Flag game in a single HTML file. Simulated Linux terminal, challenge levels, analyst ranks. | HTML/CSS/JS, CTF design |
 
-Additional reports and analyses from practical lab exercises and study guides.
+## Coursework
 
-| Project                                                             | Description                                                                                                     | Skills Demonstrated                                                              |
-| :------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **[Fabric AI CLI Installation Showcase](./fabric-installation-showcase/README.md)** | A showcase of installing and configuring the Fabric AI CLI, demonstrating troubleshooting and adaptability. | Debugging, Troubleshooting, Technical Acumen, Documentation Analysis, Command-Line Proficiency, Persistence and Adaptability |
-| **[VMware Workstation and Kali Linux Setup (Windows Host)](./cybersecurity-labs/vmware-kali-setup/README.md)** | Documenting the installation of VMware Workstation Pro and deployment of a Kali Linux virtual machine on a Windows host.              | Virtualization, Windows, Linux, System Administration, Cybersecurity Lab Setup            |
-| **[CompTIA Security+ Study Guide](./cybersecurity-labs/sec-plus-guide/README.md)**              | A comprehensive study guide for the Security+ exam, organized by official domains.                              | Security Architecture, Threat Management, Governance & Compliance                |
-| **[NIST DDoS Incident Report](./cybersecurity-labs/nist-ddos-incident-report/README.md)**       | A formal incident report analyzing a DDoS attack using the five functions of the NIST Cybersecurity Framework. | Incident Analysis, NIST CSF, Network Security, Incident Response |
-| **[Alfunz-Core RAG System Build](./project-logs/alfunz-core-rag-system-build/README.md)** | A detailed log of building and troubleshooting a RAG system with Ollama and AnythingLLM. | LLM Deployment, RAG Architecture, Troubleshooting, Performance Optimization, System Governance |
-| **[Cyber Security CTF Lab](https://github.com/Rey-EL/cyber-security-ctf-lab)** | An interactive web-based terminal simulator for learning cybersecurity concepts through Capture The Flag (CTF) challenges, featuring enhanced narrative, ranks, and realistic terminal functionalities. | Web Development (HTML/CSS/JS), Cybersecurity Concepts, CTF Methodologies, Linux Commands, Gamification, UI/UX |
+- [ECPI University coursework](./ecpi-coursework/README.md) — Computer and Information Science, Cyber Security Technology concentration.
 
----
+## Contact
 
-## ECPI University Coursework
-
-This section provides an overview of my academic journey at ECPI University, highlighting key courses and the practical skills acquired.
-
-*   **[ECPI Coursework Overview](./ecpi-coursework/README.md)**
-
----
-
-## Connect with Me
-
-*   **LinkedIn:** [www.linkedin.com/in/elvisreyeshernandez](www.linkedin.com/in/elvisreyeshernandez)
-*   **Email:** [elvis360@gmail.com](mailto:elvis360@gmail.com)
-
----
+- LinkedIn: [elvisreyeshernandez](https://www.linkedin.com/in/elvisreyeshernandez)
+- Email: [elvis360@gmail.com](mailto:elvis360@gmail.com)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for new features, bug fixes, or additional CTF levels, please feel free to:
-
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'feat: Add amazing feature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+MIT License. See [LICENSE.md](LICENSE.md) for details.
