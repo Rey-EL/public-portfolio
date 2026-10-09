@@ -1,86 +1,51 @@
-# SQL Filtering for Security Investigations
+# SQL Filtering Lab
 
-## Project Overview
+I used SQL to investigate security events in a simulated employee database. The exercise: write queries that find suspicious login activity and pull the right employee lists for admin work. Part of my Google Cybersecurity Certificate work.
 
-This project from the Google Cybersecurity Certificate program demonstrates the use of SQL for security investigations. The exercise involves analyzing a scenario that requires querying a database of employee records and login attempts to identify and isolate security-relevant events.
+## The queries
 
----
-
-## Scenario
-
-As a security analyst, you need to investigate several potential security incidents and support system administration tasks by querying a database. The tasks include identifying failed login attempts after business hours, reviewing login activity around a specific date, and generating lists of employees based on department and location for targeted updates.
-
----
-
-## Implementation Details
-
-Below are examples of the queries written during the lab, demonstrating different filtering techniques.
-
-### 1. Filtering by Time and Status
-**Goal:** Identify potentially unauthorized access by finding failed login attempts that occurred after business hours (18:00).
+Failed logins after business hours. This is the first thing you check when you suspect unauthorized access:
 
 ```sql
 SELECT * FROM log_in_attempts WHERE login_time > '18:00:00' AND success = 0;
 ```
 
-### 2. Filtering by Date Range
-**Goal:** Investigate a security event by retrieving all login activity from a specific date and the day prior.
+All login activity on and around the day of an incident:
 
 ```sql
 SELECT * FROM log_in_attempts WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
 ```
 
-### 3. Excluding by Location
-**Goal:** Narrow an investigation by excluding all login attempts originating from a specific country (Mexico).
+Narrow the search by excluding a whole country:
 
 ```sql
 SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';
 ```
 
-### 4. Filtering by Department and Office
-**Goal:** Support a targeted system update by identifying all employees in the Marketing department who work in an "East" building office.
+Find Marketing staff in East-building offices for a targeted update:
 
 ```sql
 SELECT * FROM employees WHERE department = 'Marketing' AND office LIKE 'East-%';
 ```
 
-### 5. Filtering for Multiple Departments
-**Goal:** Retrieve a list of all employees working in either the Finance or Sales departments.
+Pull everyone in Finance or Sales:
 
 ```sql
 SELECT * FROM employees WHERE department = 'Finance' OR department = 'Sales';
 ```
 
-### 6. Excluding a Department
-**Goal:** Create a list of all employees *not* in the IT department, often a necessary step for planning phased software rollouts.
+Everyone outside IT, for a phased rollout:
 
 ```sql
 SELECT * FROM employees WHERE NOT department = 'Information Technology';
 ```
 
----
+## What this shows
 
-## Summary of Skills Demonstrated
+I can use `WHERE` clauses with `AND`, `OR`, and `NOT` to hunt for threats and answer real admin questions. Same skill, two jobs: find the bad logins, and get the right people list.
 
-This lab provided practical experience in using fundamental SQL `WHERE` clauses to support cybersecurity functions. The key skills demonstrated include:
-*   **Threat Hunting:** Isolating suspicious login patterns based on time, date, and location.
-*   **Data Auditing:** Retrieving specific records to verify user activity.
-*   **Asset Management:** Filtering employee lists to support targeted system updates and policy enforcement.
-
----
-
-## Security Considerations
-
-While this lab focuses on using SQL for investigative purposes, it is crucial to remember that SQL databases are often targets of attacks. One of the most critical vulnerabilities is **SQL Injection**, listed in the OWASP Top 10. In real-world applications, it is vital to use parameterized queries or prepared statements to prevent SQL Injection attacks, rather than concatenating user input directly into SQL queries. This practice ensures that user input is treated as data, not executable code, thereby protecting the database from malicious manipulation.
-
----
+One habit worth naming: in production, user input never goes straight into a query string. Parameterized queries exist so input stays data and never becomes code.
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE.md) - see the LICENSE.md file for details.
-
----
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or want to enhance the lab, please feel free to open an issue or submit a pull request.
+MIT License. See [LICENSE.md](LICENSE.md) for details.
