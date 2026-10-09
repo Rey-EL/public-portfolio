@@ -111,7 +111,7 @@
 *   **Why:** This framework is essential for managing and enforcing access control, ensuring accountability, and protecting organizational resources from unauthorized use.
 *   **How:** Typically implemented using a central AAA server that processes authentication requests, assigns permissions based on policy, and records user actions.
 *   **Who:** Users attempting to access resources and administrators responsible for managing those resources and user permissions.
-*   **Where:** Widely deployed in network security, virtual private networks (VPNs), and any system requiring robust user access management.
+*   **Where:** Widely deployed in network security, virtual private networks (VPNs), and any system requiring strong user access management.
 *   **When:** Authentication occurs at login, authorization is checked for every resource access attempt, and accounting continuously logs activities throughout a user’s session.
 
 ### Zero Trust
@@ -194,7 +194,7 @@
 *   **What:** PKI is a comprehensive framework that utilizes asymmetric encryption to facilitate secure data exchange, authentication, and digital signatures. It encompasses public and private keys, digital certificates, Certificate Authorities (CAs), and associated policies and procedures.
 *   **Why:** The primary purpose of PKI is to establish and manage trust in digital communications and transactions. It verifies identities and ensures the integrity of data.
 *   **How:** PKI manages the entire lifecycle of digital certificates, from their creation and distribution to management, storage, and eventual revocation. Public keys are openly shared to encrypt data or verify digital signatures, while their corresponding private keys are kept confidential for decryption or creating digital signatures.
-*   **Who:** Organizations and individuals who require secure communication channels and robust identity verification mechanisms.
+*   **Who:** Organizations and individuals who require secure communication channels and strong identity verification.
 *   **Where:** PKI is widely implemented in secure websites (HTTPS), secure email systems, and any application or system where data security and trusted communication are paramount.
 *   **When:** PKI is employed whenever secure communication, reliable identity verification, and non-repudiation are critical requirements.
 
