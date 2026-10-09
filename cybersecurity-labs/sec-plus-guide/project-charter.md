@@ -1,72 +1,73 @@
-You are the project lead for a new CompTIA Security+ (SY0-701) Study Guide. Our format for every topic will be the '5 W's and H' (Who, What, Where, When, Why, How).
+# Security+ (SY0-701) Study Plan
 
-Your primary 'brain' file is gemini.md. I want you to overwrite the gemini.md file with this entire prompt, including the full exam syllabus below. This file will now serve as our project charter and Table of Contents.
+This is my personal study plan for the CompTIA Security+ exam. I am writing the guide as I learn, one domain at a time, and checking topics off as I finish them.
 
-PROJECT GOAL: Create a comprehensive study guide for the Security+ (SY0-701) exam.
+## My goal
 
-FORMAT: 5 W's and H (Who, What, Where, When, Why, How).
+Pass the SY0-701 on the first attempt. I want more than the cert. I want the material cold, because most of it maps directly to work I already do: incident response, access control, risk, and governance.
 
-SYLLABUS:
+## How I study
 
-1. General security concepts (12%)
-Security controls: comparing technical, preventive, managerial, deterrent, operational, detective, physical, corrective, compensating, and directive controls.
+- One domain at a time, in exam order. I do not move on until I can explain every topic out loud without notes.
+- Every topic gets the 5 W's and H treatment: who it affects, what it is, where it applies, when it matters, why it exists, and how it works in practice.
+- I write the domain page first, then test myself with practice questions. Anything I miss goes back into the notes.
+- I study in 45-minute blocks with short breaks. Two blocks on weekdays, longer sessions on weekends.
 
-Fundamental concepts: summarizing confidentiality, integrity, and availability (CIA); non-repudiation; authentication, authorization, and accounting (AAA); zero trust; and deception/disruption technology.
+## Schedule
 
-Change management: explaining business processes, technical implications, documentation, and version control.
+- **Weeks 1-2:** Domain 1, General Security Concepts (12%)
+- **Weeks 3-4:** Domain 2, Threats, Vulnerabilities, and Mitigations (22%)
+- **Weeks 5-6:** Domain 3, Security Architecture (18%)
+- **Weeks 7-9:** Domain 4, Security Operations (28%). Biggest domain, gets the most time.
+- **Weeks 10-11:** Domain 5, Security Program Management and Oversight (20%)
+- **Week 12:** Full review, practice exams, and weak-area drills. Then I book the test.
 
-Cryptographic solutions: using public key infrastructure (PKI), encryption, obfuscation, hashing, digital signatures, and blockchain.
+Timelines shift when life happens. The rule that does not shift: no domain is done until I can teach it.
 
-2. Threats, vulnerabilities, and mitigations (22%)
-Threat actors and motivations: comparing nation-states, unskilled attackers, hacktivists, insider threats, organized crime, shadow IT, and motivations like data exfiltration, espionage, and financial gain.
+## Domain checklist
 
-Threat vectors and attack surfaces: explaining message-based, unsecure networks, social engineering, file-based, voice call, supply chain, and vulnerable software vectors.
+### Domain 1: General Security Concepts (12%)
+- [ ] Security control types: technical, managerial, operational, and by function (preventive, detective, corrective, deterrent, compensating, directive, physical)
+- [ ] CIA triad, non-repudiation, AAA, zero trust, deception and disruption technology
+- [ ] Change management: business process, technical implications, documentation, version control
+- [ ] Cryptography: PKI, encryption, hashing, digital signatures, obfuscation, blockchain
 
-Vulnerabilities: explaining application, hardware, mobile device, virtualization, operating system (OS)-based, cloud-specific, web-based, and supply chain vulnerabilities.
+### Domain 2: Threats, Vulnerabilities, and Mitigations (22%)
+- [ ] Threat actors: nation-states, unskilled attackers, hacktivists, insiders, organized crime, shadow IT
+- [ ] Motivations: data theft, espionage, financial gain, disruption
+- [ ] Threat vectors: message-based, unsecure networks, social engineering, file-based, voice calls, supply chain, vulnerable software
+- [ ] Vulnerability types: application, hardware, mobile, virtualization, OS, cloud, web, supply chain
+- [ ] Malicious activity: malware, password attacks, application attacks, physical attacks, network attacks, cryptographic attacks
+- [ ] Mitigations: segmentation, access control, hardening, patching, isolation
 
-Malicious activity: analyzing malware attacks, password attacks, application attacks, physical attacks, network attacks, and cryptographic attacks.
+### Domain 3: Security Architecture (18%)
+- [ ] Architecture models: on-premises, cloud, virtualization, IoT, ICS, infrastructure as code
+- [ ] Enterprise infrastructure: secure baselines, control selection, secure communication and access
+- [ ] Data protection: data types, classifications, and securing methods
+- [ ] Resilience and recovery: high availability, backups, site considerations, continuity of operations
 
-Mitigation techniques: using segmentation, access control, configuration enforcement, hardening, isolation, and patching.
+### Domain 4: Security Operations (28%)
+- [ ] Computing resources: hardening, wireless security, mobile solutions, sandboxing, monitoring
+- [ ] Asset management: acquisition, assignment, tracking, disposal
+- [ ] Vulnerability management: identify, analyze, remediate, validate, report
+- [ ] Alerting and monitoring tools
+- [ ] Enterprise security controls: firewalls, IDS/IPS, DNS filtering, DLP, NAC, EDR/XDR
+- [ ] IAM: provisioning, SSO, MFA, privileged access management
+- [ ] Automation and orchestration use cases
+- [ ] Incident response: process, training, testing, root cause analysis, threat hunting, forensics
+- [ ] Data sources for investigations: logs and telemetry
 
-3. Security architecture (18%)
-Architecture models: comparing on-premises, cloud, virtualization, Internet of Things (IoT), industrial control systems (ICS), and infrastructure as code (IaC).
+### Domain 5: Security Program Management and Oversight (20%)
+- [ ] Security governance: policies, standards, procedures, roles
+- [ ] Risk management: identification, assessment, analysis, register, tolerance, appetite, BIA
+- [ ] Third-party risk: vendor assessment, agreements, monitoring
+- [ ] Compliance: reporting, consequences, privacy considerations
+- [ ] Audits and assessments: internal, external, attestation, penetration testing
+- [ ] Security awareness: phishing training, behavior recognition, user guidance, reporting
 
-Enterprise infrastructure: applying security principles to infrastructure considerations, control selection, and secure communication/access.
+## Exam day rules I set for myself
 
-Data protection: comparing data types, securing methods, general considerations, and classifications.
-
-Resilience and recovery: explaining high availability, site considerations, testing, power, platform diversity, backups, and continuity of operations
-
-4. Security operations (28%)
-Computing resources: applying secure baselines, mobile solutions, hardening, wireless security, application security, sandboxing, and monitoring.
-
-Asset management: explaining acquisition, disposal, assignment, and monitoring/tracking of hardware, software, and data assets.
-
-Vulnerability management: identifying, analyzing, remediating, validating, and reporting vulnerabilities.
-
-Alerting and monitoring: explaining monitoring tools and computing resource activities.
-
-Enterprise security: modifying firewalls, IDS/IPS, DNS filtering, DLP (data loss prevention), NAC (network access control), and EDR/XDR (endpoint/extended detection and response).
-
-Identity and access management: implementing provisioning, SSO (single sign-on), MFA (multifactor authentication), and privileged access tools.
-
-Automation and orchestration: explaining automation use cases, scripting benefits, and considerations.
-
-Incident response: implementing processes, training, testing, root cause analysis, threat hunting, and digital forensics.
-
-Data sources: using log data and other sources to support investigations.
-
-5. Security program management and oversight (20%)
-Security governance: summarizing guidelines, policies, standards, procedures, external considerations, monitoring, governance structures, and roles/responsibilities.
-
-Risk management: explaining risk identification, assessment, analysis, register, tolerance, appetite, strategies, reporting, and business impact analysis (BIA).
-
-Third-party risk: managing vendor assessment, selection, agreements, monitoring, questionnaires, and rules of engagement.
-
-Security compliance: summarizing compliance reporting, consequences of non-compliance, monitoring, and privacy.
-
-Audits and assessments: explaining attestation, internal/external audits, and penetration testing.
-
-Security awareness: implementing phishing training, anomalous behavior recognition, user guidance, reporting, and monitoring.
-
-Confirm you have understood and have overwritten gemini.md with this plan
+1. Read every question twice before looking at the answers.
+2. Flag and skip the long scenario questions, then come back with fresh eyes.
+3. Eliminate the two obviously wrong answers first. The test loves distractors.
+4. Trust the first instinct unless I can point to exactly why it is wrong.
